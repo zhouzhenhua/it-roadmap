@@ -1,0 +1,23 @@
+{
+  "name": "roadmap",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "dev": "vitepress dev docs",
+    "build": "vitepress build docs",
+    "serve": "vitepress serve docs"
+  },
+  "devDependencies": {
+    "vitepress": "^0.20.1"
+  },
+  "dependencies": {
+    "canvas": "^2.8.0",
+    "fabric": "^3.6.3"
+  },
+  "binary":{
+    "host":"https://www.npmjs.com/package/node-pre-gyp",
+    "module_name":"x",
+    "module_path":"。、"
+  }
+}
