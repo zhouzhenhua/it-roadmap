@@ -17,7 +17,7 @@ function drawInfo() {
 ⭐ 可以先收藏起来，用到的时候再学的技术
 ❌ 不推荐或者过时的技术`
   const x = 35
-  const y = 50
+  const y = 20
   const width = 280
   const height = 100
   const { textColor, fontSize, origin, infoBg } = RECT
@@ -54,14 +54,14 @@ function drawQrcode(canvas) {
 来源:https://shengxinjing.cn
 好好学习，天天向上`
   const x = 0
-  const y = 50
+  const y = 20
   const width = 300
   const height = 100
   const { textColor, fontSize, origin } = RECT
   fabric.Image.fromURL('/qrcode.jpeg', img => {
     img.set({
       left: 810,
-      top: 60,
+      top: 30,
       opacity: 0.8,
       scaleX: 0.32,
       scaleY: 0.32
@@ -116,6 +116,10 @@ export function drawMap(dom, data) {
     data[i].x = data[i - 1].x + (data[i].x || 0)
     data[i].y = data[i - 1].y + (data[i].y || 100)
   }
+
+  dom.height = data[data.length-1].y+40+20
+
+  
   let canvas = new fabric.Canvas(dom, {
     containerClass: 'roadmap-container',
     hoverCursor: 'pointer',
@@ -157,7 +161,7 @@ export function drawMap(dom, data) {
         } else {
           child.x = parent.left + child.x + 272 - depth * 45
         }
-        let y = child.y || (parent.top - (Math.floor(len / 2) - i) * (RECT.h + 10))
+        let y = (parent.top - (Math.floor(len / 2) - i) * (RECT.h-depth*3))+ (child.y || 0)
         y += isEven ? RECT.h / 2 : 0
         const subRect = drawRect({ ...child, y, depth }, canvas)
         subRect.link = child.link || parent.link
@@ -217,23 +221,26 @@ function drawRect(item, canvas) {
   const width = (item.w ? item.w : RECT.w) - depth * 15
   const height = item.h ? item.h : RECT.h
   const { textColor, bgColor, fontSize, origin } = RECT
-
-
+  let color = tag == '❌' ? RECT.infoBg : bgColor[depth]
+  if(!item.link && depth==0){
+    // color = '#81c2c3'
+    color = '#78b0df'
+  }
   const rect = new fabric.Rect({
-    fill: tag == '❌' ? RECT.infoBg : bgColor[depth],
+    fill: color,
     originX: 'origin',
     originY: origin,
     rx: '5',
     shadow: 'rgba(0,0,0,.2) 2px 2px 2px',
     width,
-    height,
+    height:height-depth*7,
   })
   const text = new fabric.Text(title, {
     fill: textColor,
     originY: origin,
     originX: origin,
     fontWeight: '500',
-    fontSize,
+    fontSize:fontSize-depth*2,
     fontFamily: RECT.fontFamily
 
   })
@@ -305,7 +312,7 @@ function drawLine(r1, r2) {
 }
 export function c(title, options, children) {
 
-  // [x,w,h]
+  // [x,y,w,h]
   if (!options) {
     // only title
     options = []
@@ -322,10 +329,10 @@ export function c(title, options, children) {
 
   }
 
-  const [x = 0, w = 120, h = 40] = options
+  const [x = 0,y=0, w = 120, h = 40] = options
   const { bgColor, textColor } = RECT
   const ret = {
-    title, x, w, h, bgColor, textColor, children
+    title, x, y,w, h, bgColor, textColor, children
   }
   return ret
 }

@@ -1,7 +1,7 @@
 <template>
   <div>
-    <!-- <button @click="downloadCanvas">导出图片</button> -->
-    <canvas ref="canvasRef" :height="height" width="900" />
+    <button @click="downloadCanvas">导出图片</button>
+    <canvas ref="canvasRef" :height="height" width="940" />
   </div>
 </template>
 
@@ -20,6 +20,11 @@ function canvasClick(e) {
   if (e.target && e.target.link) {
     location.href = e.target.link
   }
+}
+
+
+function add(x,y){
+  return x*y
 }
 
 function downloadCanvas() {
@@ -56,3 +61,4 @@ onMounted(() => {
   /* background-color: #595959; */
 }
 </style>
+
