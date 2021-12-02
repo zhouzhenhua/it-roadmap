@@ -9,11 +9,11 @@
     "serve": "vitepress serve docs"
   },
   "devDependencies": {
-    "vitepress": "^0.20.1"
+    "vitepress": "0.20.1"
   },
   "dependencies": {
-    "canvas": "^2.8.0",
-    "fabric": "^3.6.3"
+    "canvas": "2.8.0",
+    "fabric": "3.6.3"
   },
   "binary":{
     "host":"https://www.npmjs.com/package/node-pre-gyp",
