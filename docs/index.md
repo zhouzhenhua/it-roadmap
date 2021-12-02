@@ -24,7 +24,7 @@ home: true
     ]
   } ,
   { title:'Javascript', link:'/fe/javascript',
-    y:150,
+    y:140,
     left:[
       ['语法入门',[
         ['ES6语法'],
@@ -45,8 +45,9 @@ home: true
     ]
   } ,
   { title:'🔥实战开发', link:'/fe/project',
-   y:200,x:-162,
+   y:220,x:-162,
     left:[
+      ['开发环境配置'],
       ['登录注册'],
       ['增删改查'],
       ['前后端交互'],
@@ -67,9 +68,23 @@ home: true
       ['如何离职'],
     ]
   } ,
-  { title:'进阶之路',x:-162,y:85,
+  { title:'折腾自己的服务器',x:-162,y:170,link:'server',
+    left:[
+      ['购买云机器'],
+      ['购买域名'],
+      ['nginx配置'],
+      ['百度统计'],
+    ],
+    right:[
+      ['Vuepress'],
+      ['Vitepress'],
+      ['Dumi'],
+      ['Gastby'],
+    ]
   } ,
-  { title:'Vue3',y:200,link:'/fe/vue',
+  { title:'进阶之路',y:100,
+  } ,
+  { title:'Vue3',y:100,link:'/fe/vue',
     left:[
       ['入门',[-50],[
         ['清单应用'],
@@ -79,7 +94,7 @@ home: true
         ['Composition'],
         ['<script setup>'],
       ]],
-      ['项目实战',[150],[
+      ['项目实战',[140],[
         ['Vuex Pinia'],
         ['vue-router'],
         ['单元测试'],
@@ -101,7 +116,7 @@ home: true
         ['表格组件'],
         ['组件文档'],
       ]],
-      ['源码',[150],[
+      ['源码',[140],[
         ['Vue3新特性'],
         ['响应式原理'],
         ['虚拟Dom'],
@@ -112,7 +127,21 @@ home: true
       ]],
     ]
   } ,
-  { title:'React',y:600,link:'/fe/react',
+  {title:'框架设计理念',link:'fe/framework',
+  y:280,
+    left:[
+      ['编译Compiler'],
+      ['运行时Runtime'],
+      ['template JSX'],
+      ['响应式'],
+    ],
+    right:[
+      ['Angular'],
+      ['Svelte'],
+      ['Solidjs'],
+    ]
+  },
+  { title:'React',y:190,link:'/fe/react',
     left:[
       ['入门',[-50],[
         ['cra脚手架'],
@@ -120,15 +149,12 @@ home: true
         ['JSX'],
         ['Hooks'],
         ['表单'],
-        ['Hooks'],
-        ['<script setup>'],
+        ['Ant Design'],
       ]],
-      ['项目实战',[150],[
-        ['Vuex Pinia'],
-        ['vue-router'],
-        ['调试工具'],
+      ['项目实战',[120],[
+        ['redux dva'],
+        ['react-router'],
         ['单元测试'],
-        ['JSX'],
         ['性能优化'],
         ['权限路由'],
         ['use工具库'],
@@ -144,18 +170,65 @@ home: true
         ['表格组件'],
         ['组件文档'],
       ]],
-      ['源码',[150],[
-        ['Vue3新特性'],
-        ['响应式原理'],
+      ['源码',[120],[
         ['虚拟Dom'],
-        ['Runtime'],
-        ['Compiler优化'],
-        ['Vue-router源码'],
-        ['Vite源码'],
+        ['Fiber'],
+        ['Hooks'],
+        ['Render'],
+        ['Reconciler'],
+        ['Concurrent'],
+        ['React Router'],
       ]],
     ]
   } ,
-  { title:'软技能', link:'/fe/javascript',y:550,
+  { title:'Typescript',y:260, link:'/fe/typescript',
+    left:[
+      ['基础类型'],
+      ['Interface'],
+      ['复合类型'],
+      ['泛型<T>'],
+    ],
+    right:[
+      ['接口类型'],
+      ['Vue+TS'],
+      ['React+TS'],
+    ],
+  } ,
+  { title:'Node.js', y:180,link:'/fe/node',
+    left:[
+      ['Node入门'],
+      ['Web开发',[
+        ['Koa'],
+        ['Eggjs'],
+        ['Nest.js'],
+      ]],
+      ['文件流'],
+      ['爬虫'],
+    ],
+    right:[
+      ['数据库',[
+        ['Mysql'],
+        ['Mongodb'],
+      ]],
+      ['部署'],
+      ['脚手架'],
+      ['微前端'],
+    ],
+  } ,
+  { title:'工程化', link:'/fe/fis',y:180,
+    left:[
+      ['初始化脚手架'],
+      ['开发调试'],
+      ['构建'],
+      ['测试']
+    ],
+    right:[
+      ['发布'],
+      ['监控'],
+      ['安全'],
+    ]
+  } ,
+  { title:'软技能', link:'/fe/soft',
     left:[
       ['技术管理'],
       ['影响力'],
@@ -174,22 +247,61 @@ home: true
       ['产品能力'],
     ]
   },
-  { title:'Typescript', link:'/fe/javascript'} ,
-  { title:'小程序', link:'/fe/javascript'} ,
-  { title:'桌面应用开发', link:'/fe/javascript'} ,
-  { title:'性能优化', link:'/fe/javascript'} ,
-  { title:'测试', link:'/fe/javascript'} ,
-  { title:'工程化', link:'/fe/javascript'} ,
-  { title:'Node.js', link:'/fe/javascript'} ,
-  { title:'小程序', link:'/fe/javascript'} ,
-  { title:'计算机基础', link:'/fe/javascript'},
-  { title:'计算机网络', link:'/it/network',
+  { title:'小程序', link:'/fe/miniapp',
+    left:[
+      ['小程序入门'],
+      ['模板语法'],
+      ['跨端框架',[
+        ['Taro'],
+        ['Uni-app'],
+      ]],
+      ['小程序进阶'],
+    ],
+    right:[
+      ['云开发',[
+        ['云函数'],['云数据库'],['云存储'],
+      ]],
+      ['支付'],
+      ['小程序原理'],
+    ]
+  } ,
+  { title:'测试', link:'/fe/test',y:120,
+    left:[
+      ['单元测试',[
+        ['Jest'],
+      ]],
+    ],
+    right:[
+      ['E2E测试',[
+        ['cypress']
+      ]],
+    ]
+  } ,
+  { title:'性能优化', link:'/fe/perf',y:100,
+    left:[
+      ['性能指标',[
+        ['LCP'],
+        ['TTI'],
+        ['FP'],
+      ]],
+      ['lighthouse'],
+      ['performance'],
+    ],
+    right:[
+      ['优化策略',[
+        ['缓存'],
+        ['代码执行效率'],
+      ]],
+      ['性能监控'],
+    ]
+  } ,
+  { title:'计算机网络', link:'/it/internet',y:120,
     left:[
       ['互联网如何工作'],
       ['什么是HTTP'],
     ]
   } ,
-  { title:'算法和数据结构', link:'/fe/algorithm',
+  { title:'算法和数据结构', link:'/it/algorithm',y:200,
     left:[
       ['排序'],
       ['搜索'],
@@ -206,20 +318,62 @@ home: true
       ['堆栈'],
       ['图'],
       ['Vue中的算法'],
+      ['React中的算法'],
     ]
   } ,
-  { title:'项目实战', link:'/fe/project',
-    y:200,
+  { title:'项目实战', link:'/fe/arch',
+    y:250,
     left:[
       [
         'CSS架构设计',[
-          ['less,sass\nstylus'],
-          ['函数'],
+          ['sass'],
+          ['bem'],
           ['动态主题'],
-        ]
-      ]
+        ],
+      ],
+      ['框架封装'],
+      ['前后端规范'],
+      ['项目规范设计',[
+        ['eslint'],
+        ['git规范'],
+        ['开发流程规范'],
+      ]],
+    ],
+    right:[
+      ['技术选型'],
+      ['项目亮点'],
     ]
   } ,
-  { title:'热门技术', link:'/fe/javascript'} ,
-  {title:'终身成长'}
+  { title:'浏览器原理', link:'/fe/browser'} ,
+  { title:'App开发', link:'/fe/app',
+    left:[
+      ['React Native'],
+      ['❌Weex'],
+    ],
+    right:[
+      ['Flutter'],
+    ],
+  } ,
+  { title:'热门技术', link:'/fe/hot',
+    left:[
+      ['Electron'],
+      ['Rust'],
+      ['Go'],
+      ['IDE'],
+      ['Web'],
+    ],
+    right:[
+      ['可视化',[
+        ['Echarts','Antv']
+      ]],
+      ['Rust'],
+      ['Go',[
+        ['esbuild']
+      ]],
+      ['Web Assembly'],
+    ],
+  } ,
+  {title:'终身成长'},
 ]"/>
+<!-- https://mo.fish/ -->
+<!-- https://duomoyu.com/ -->

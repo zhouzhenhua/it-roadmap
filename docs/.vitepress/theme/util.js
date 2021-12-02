@@ -114,7 +114,7 @@ export function drawMap(dom, data) {
   // data[0].y = data[0].y+130
   for (let i = 1; i < data.length; i++) {
     data[i].x = data[i - 1].x + (data[i].x || 0)
-    data[i].y = data[i - 1].y + (data[i].y || 100)
+    data[i].y = data[i - 1].y + (data[i].y || 150)
   }
 
   dom.height = data[data.length-1].y+40+20
@@ -161,7 +161,7 @@ export function drawMap(dom, data) {
         } else {
           child.x = parent.left + child.x + 272 - depth * 45
         }
-        let y = (parent.top - (Math.floor(len / 2) - i) * (RECT.h-depth*5))+ (child.y || 0)
+        let y = (parent.top - (Math.floor(len / 2) - i) * (RECT.h+9-depth*10))+ (child.y || 0)
         y += isEven ? RECT.h / 2 : 0
         const subRect = drawRect({ ...child, y, depth }, canvas)
         subRect.link = child.link || parent.link
