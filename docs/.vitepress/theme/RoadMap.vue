@@ -1,64 +1,50 @@
 <template>
-  <canvas ref="canvasRef" :height="height" width="900"  />
+  <div>
+    <!-- <button @click="downloadCanvas">导出图片</button> -->
+    <canvas ref="canvasRef" :height="height" width="900" />
+  </div>
 </template>
 
 <script setup>
-import {ref,onMounted,onUnmounted} from 'vue'
-import {drawMap,c} from './util'
+import { ref, onMounted, onUnmounted } from 'vue'
+import { drawMap, c } from './util'
 const props = defineProps({
-  height:Number
+  height: Number,
+  data: Object
 })
 let canvasRef = ref()
 
-let all = [
-  { title:'编程学习之路',x:400,y:50 },
-  {title:'HTML',y:200} ,
-  { 
-    title:'CSS', link:'/fe/css',
-    x:100,
-    left:[
-        ['布局算法'],
-        ['css架构']
-    ],
-    right:[
-        ['选择器',[-50,50]],
-        // ['选择器',[-50,50,20]],
-        ['预编译']
-    ]
-    // children:[
-    //   [
-    //     c('布局算法',200],
-    //     c('css架构',200),
-    //   ],
-      // [
-      //   c('选择器',600),
-      //   c('预编译',600,{},[
-      //       c('sass',750),
-      //       c('less',750),
-      //       c('stylus',750),
-      //       c('sass',750),
-      //       c('sass',750)
-      //   ])
-      // ]
-    // ]
-  }
-]
-function canvasClick(e){
+function canvasClick(e) {
+  console.log(e.target)
   console.log(e.target.link)
-
-  if(e.target && e.target.link){
-
+  if (e.target && e.target.link) {
     location.href = e.target.link
   }
 }
-onMounted(()=>{
-  const canvas = drawMap(canvasRef.value,all)
-  canvas.on("mouse:down", canvasClick)
 
+function downloadCanvas() {
+  const canvas = canvasRef.value
+  const dataURL = canvas.toDataURL({
+    width: canvas.width,
+    height: canvas.height,
+    left: 0,
+    top: 0,
+    format: 'png',
+  })
+  const link = document.createElement('a');
+  link.download = 'canvas.png';
+  link.href = dataURL;
+  document.body.appendChild(link);
+  link.click();
+  document.body.removeChild(link);
+}
+onMounted(() => {
+  const canvas = drawMap(canvasRef.value, props.data)
+  canvas.on("mouse:down", canvasClick)
 })
-onUnmounted(()=>{
-  canvas.off("mouse:down", canvasClick)
-})
+// onUnmounted(()=>{
+//   canvas.off("mouse:down", canvasClick)
+// })
 
 </script>
 
@@ -67,7 +53,6 @@ onUnmounted(()=>{
   font-family: Helvetica, "Hiragino Sans GB", "Microsoft Yahei", "微软雅黑",
     Arial, sans-serif;
   position: relative;
-  /* background-color: #8c8c8c; */
-  padding-top: 60px;
+  /* background-color: #595959; */
 }
 </style>
