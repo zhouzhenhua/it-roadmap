@@ -15,7 +15,7 @@ function drawInfo() {
   const title = `✅ 前端必须要学的知识 需要练习
 🔥 大圣推荐的技术，进阶必备，需要深入研究
 ⭐ 可以先收藏起来，用到的时候再学的技术
-❌ 不推荐或者过时的技术`
+❌ 个人不推荐或者过时的技术`
   const x = 35
   const y = 20
   const width = 280
@@ -161,7 +161,7 @@ export function drawMap(dom, data) {
         } else {
           child.x = parent.left + child.x + 272 - depth * 45
         }
-        let y = (parent.top - (Math.floor(len / 2) - i) * (RECT.h-depth*3))+ (child.y || 0)
+        let y = (parent.top - (Math.floor(len / 2) - i) * (RECT.h-depth*5))+ (child.y || 0)
         y += isEven ? RECT.h / 2 : 0
         const subRect = drawRect({ ...child, y, depth }, canvas)
         subRect.link = child.link || parent.link
@@ -329,7 +329,7 @@ export function c(title, options, children) {
 
   }
 
-  const [x = 0,y=0, w = 120, h = 40] = options
+  const [y=0,x = 0, w = 120, h = 40] = options
   const { bgColor, textColor } = RECT
   const ret = {
     title, x, y,w, h, bgColor, textColor, children

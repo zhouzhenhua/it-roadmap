@@ -3,6 +3,6 @@ import RoadMap from './RoadMap.vue'
 export default {
   ...DefaultTheme,
   enhanceApp({ app }) {
-    app.component('RoadMap', RoadMap)
+    app.component('roadmap', RoadMap)
   }
 }
