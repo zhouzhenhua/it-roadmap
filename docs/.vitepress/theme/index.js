@@ -1,5 +1,5 @@
 import DefaultTheme from 'vitepress/theme'
-import Roadmap from './Roadmap.vue'
+import Roadmap from './RoadMap.vue'
 export default {
   ...DefaultTheme,
   enhanceApp({ app }) {
