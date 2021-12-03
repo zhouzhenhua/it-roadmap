@@ -15,8 +15,9 @@ module.exports = {
         text:'摸鱼必备',
         children:[
           {text:"在线街机",link:"https://play.wo1wan.com/"},
-          {text:"在线街机",link:"https://play.wo1wan.com/"},
-          {text:"在线看大熊猫",link:"https://game.chronodivide.com/"}
+          {text:"在线看大熊猫",link:"http://live.ipanda.com/xmcd/"},
+          {text:"知乎",link:"https://www.zhihu.com/people/woniuppp"},
+          {text:"B站",link:"https://space.bilibili.com/26995758"}
         ]
       },
       {
