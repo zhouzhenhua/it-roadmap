@@ -19,6 +19,8 @@ module.exports = {
           {text:"知乎",link:"https://www.zhihu.com/people/woniuppp"},
           {text:"B站",link:"https://space.bilibili.com/26995758"},
           {text:"云旅游",link:"https://livechina.cctv.com/mlzg/index.shtml?spm=0.PiHRJ12Bw7m4.EVbEpxjQVGbO.4"},
+          {text:"海洋之声",link:"https://virtocean.com/"},
+
         ]
       },
       {

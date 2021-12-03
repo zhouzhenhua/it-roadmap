@@ -8,7 +8,7 @@ title: '大圣前端学习路线图'
 
 <roadmap :height="5000" :data="[
   { title:'大圣前端路线图',x:400,y:20 ,download:true},
-  { title:'✅HTML+CSS', y:130,link:'/fe/css',
+  { title:'✅HTML+CSS', y:130,link:'/fe/css.html',
     left:[
       ['HTML基础'],
       ['环境基本安装',[
@@ -25,7 +25,7 @@ title: '大圣前端学习路线图'
       ]],
     ]
   } ,
-  { title:'Javascript', link:'/fe/javascript',
+  { title:'Javascript', link:'/fe/javascript.html',
     y:140,
     left:[
       ['✅语法入门',[
@@ -46,7 +46,7 @@ title: '大圣前端学习路线图'
       ]]
     ]
   } ,
-  { title:'🔥实战开发', link:'/fe/project',
+  { title:'🔥实战开发', link:'/fe/project.html',
    y:220,x:-162,
     left:[
       ['开发环境配置'],
@@ -59,7 +59,7 @@ title: '大圣前端学习路线图'
       ['(p)npm包管理'],
     ]
   },
-  { title:'🔥面试', link:'/fe/interview',
+  { title:'🔥面试', link:'/fe/interview.html',
     y:10,x:325,
     right:[
       ['如何写简历'],
@@ -70,7 +70,7 @@ title: '大圣前端学习路线图'
       ['如何离职'],
     ]
   } ,
-  { title:'✅网站搭建',x:-162,y:170,link:'server',
+  { title:'✅网站搭建',x:-162,y:170,link:'/server.html',
     left:[
       ['购买云机器'],
       ['购买域名'],
@@ -86,7 +86,7 @@ title: '大圣前端学习路线图'
   } ,
   { title:'进阶之路',y:100,
   } ,
-  { title:'🔥Vue3',y:100,link:'/fe/vue',
+  { title:'🔥Vue3',y:100,link:'/fe/vue.html',
     left:[
       ['入门',[-50],[
         ['清单应用'],
@@ -129,7 +129,7 @@ title: '大圣前端学习路线图'
       ]],
     ]
   } ,
-  {title:'🔥框架设计理念',link:'fe/framework',
+  {title:'🔥框架设计理念',link:'fe/framework.html',
   y:280,
     left:[
       ['编译Compiler'],
@@ -143,7 +143,7 @@ title: '大圣前端学习路线图'
       ['Solidjs'],
     ]
   },
-  { title:'🔥React',y:190,link:'/fe/react',
+  { title:'🔥React',y:190,link:'/fe/react.html',
     left:[
       ['入门',[-50],[
         ['cra脚手架'],
@@ -183,7 +183,7 @@ title: '大圣前端学习路线图'
       ]],
     ]
   } ,
-  { title:'Typescript',y:260, link:'/fe/typescript',
+  { title:'Typescript',y:260, link:'/fe/typescript.html',
     left:[
       ['基础类型'],
       ['Interface'],
@@ -196,7 +196,7 @@ title: '大圣前端学习路线图'
       ['React+TS'],
     ],
   } ,
-  { title:'Node.js', y:180,link:'/fe/node',
+  { title:'Node.js', y:180,link:'/fe/node.html',
     left:[
       ['Node入门'],
       ['Web开发',[
@@ -217,7 +217,7 @@ title: '大圣前端学习路线图'
       ['微前端'],
     ],
   } ,
-  { title:'工程化', link:'/fe/fis',y:180,
+  { title:'工程化', link:'/fe/fis.html',y:180,
     left:[
       ['初始化脚手架'],
       ['开发调试'],
@@ -239,7 +239,7 @@ title: '大圣前端学习路线图'
       ]],
     ]
   } ,
-  { title:'软技能', link:'/fe/soft',
+  { title:'软技能', link:'/fe/soft.html',
     left:[
       ['技术管理'],
       ['影响力'],
@@ -258,7 +258,7 @@ title: '大圣前端学习路线图'
       ['产品能力'],
     ]
   },
-  { title:'⭐小程序', link:'/fe/miniapp',
+  { title:'⭐小程序', link:'/fe/miniapp.html',
     left:[
       ['小程序入门'],
       ['模板语法'],
@@ -276,7 +276,7 @@ title: '大圣前端学习路线图'
       ['小程序原理'],
     ]
   } ,
-  { title:'性能优化', link:'/fe/perf',y:160,
+  { title:'性能优化', link:'/fe/perf.html',y:160,
     left:[
       ['性能指标',[
         ['LCP'],
@@ -294,7 +294,7 @@ title: '大圣前端学习路线图'
       ['性能监控'],
     ]
   } ,
-  { title:'🔥计算机网络', link:'/it/internet',y:120,
+  { title:'🔥计算机网络', link:'/it/internet.html',y:120,
     left:[
       ['互联网如何工作'],
       ['什么是HTTP'],
@@ -304,7 +304,7 @@ title: '大圣前端学习路线图'
       ['DNS'],
     ]
   } ,
-  { title:'🔥算法和数据结构', link:'/it/algorithm',y:200,
+  { title:'🔥算法和数据结构', link:'/it/algorithm.html',y:200,
     left:[
       ['排序'],
       ['搜索'],
@@ -324,7 +324,7 @@ title: '大圣前端学习路线图'
       ['React中的算法'],
     ]
   } ,
-  { title:'项目实战', link:'/fe/arch',
+  { title:'项目实战', link:'/fe/arch.html',
     y:250,
     left:[
       [
@@ -347,8 +347,8 @@ title: '大圣前端学习路线图'
       ['项目亮点'],
     ]
   } ,
-  { title:'浏览器原理', link:'/fe/browser'} ,
-  { title:'⭐App开发', link:'/fe/app',
+  { title:'浏览器原理', link:'/fe/browser.html'} ,
+  { title:'⭐App开发', link:'/fe/app.html',
     left:[
       ['React Native'],
       ['❌Weex'],
@@ -357,7 +357,7 @@ title: '大圣前端学习路线图'
       ['Flutter'],
     ],
   } ,
-  { title:'⭐热门技术', link:'/fe/hot',
+  { title:'⭐热门技术', link:'/fe/hot.html',
     left:[
       ['Electron'],
       ['Rust'],
