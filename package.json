@@ -9,7 +9,7 @@
     "vercel-build": "yum install libuuid-devel libmount-devel && cp /lib64/{libuuid,libmount,libblkid}.so.1 node_modules/canvas/build/Release/ && npm run build"
   },
   "devDependencies": {
-    "vuepress": "^2.0.0-beta.27"
+    "vuepress-vite": "^2.0.0-beta.27"
   },
   "dependencies": {
     "fabric": "3.6.3"
