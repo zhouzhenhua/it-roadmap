@@ -28,6 +28,8 @@ jobs:
           node-version: "14.X"
       - name: install dep
         run: npm install
+      - name: build app
+        run: npm run build
       - name: Run a one-line script
         run: echo ${{ secrets.REMOTE_HOST }}
       - name: Prepare SSH
