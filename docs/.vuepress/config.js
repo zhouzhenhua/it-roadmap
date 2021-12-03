@@ -5,6 +5,10 @@ module.exports = {
   // head: [['link', { rel: 'icon', href: '/images/logo.png' }]],
   head: [
     ['style', {},`
+:root{
+  --content-width: 940px;
+  --sidebar-width: 15rem
+}
 iframe{
   width:100%;
   height:500px;

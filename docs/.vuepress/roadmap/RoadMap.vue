@@ -63,9 +63,6 @@ onMounted(() => {
 h1{
   text-align: center;
 }
-:root{
-  --content-width: 940px;
-}
 .download-btn{
   position: absolute;
   right:39px;
