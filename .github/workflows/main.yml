@@ -28,6 +28,9 @@ jobs:
           node-version: "14.X"
       - name: install dep
         run: npm install
+      - name: Run a one-line script
+        run: echo ${{ secrets.REMOTE_HOST }}
+
       - name: deploy to server
         uses: easingthemes/ssh-deploy@main
         env:
