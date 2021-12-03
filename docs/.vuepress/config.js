@@ -9,6 +9,10 @@ module.exports = {
         link:'/fe/'
       },
       {
+        text:'通用技能',
+        link:'/it/'
+      },
+      {
         text:'常用工具',
         children:[
           {text:"正则表达式",link:"https://any86.github.io/any-rule/"},
