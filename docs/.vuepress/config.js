@@ -9,10 +9,6 @@ module.exports = {
         link:'/fe/'
       },
       {
-        text:'通用技能',
-        link:'/it/'
-      },
-      {
         text:'常用工具',
         children:[
           {text:"正则表达式",link:"https://any86.github.io/any-rule/"},
@@ -36,26 +32,87 @@ module.exports = {
     ],
     sidebar:[
       '/fe/README.md',
-      '/fe/css.md',
-      '/fe/Javascript.md',
-      '/fe/project.md',
-      '/fe/interview.md',
-      '/fe/server.md',
-      '/fe/vue.md',
-      '/fe/react.md',
-      '/fe/framework.md',
-      '/fe/typescript.md',
-      '/fe/node.md',
-      '/fe/fis.md',
-      '/it/soft.md',
-      '/fe/miniapp.md',
-      // '/fe/test.md',
-      '/it/internet.md',
-      '/it/algorithm.md',
-      '/fe/arch.md',
-      '/fe/browser.md',
-      '/fe/app.md',
-      '/fe/hot.md'
+
+      {
+        text:'入门实战',
+        children:[
+            '/fe/css.md',
+            '/fe/Javascript.md',
+            '/fe/project.md',
+            '/fe/interview.md',
+            '/fe/server.md',
+        ]
+      },{
+        text:'实战进阶',
+        children:[
+          '/fe/vue.md',
+          '/fe/react.md',
+          '/fe/framework.md',
+          '/fe/typescript.md',
+          '/fe/node.md',
+          '/fe/fis.md',
+          '/fe/arch.md',
+          '/fe/browser.md',
+        ]
+      },{
+        text:'通用技能',
+        children:[
+          '/it/soft.md',
+          '/it/internet.md',
+          '/it/algorithm.md',
+        ]
+      },{
+        text:'用到再学',
+        children:[
+          '/fe/miniapp.md',
+          '/fe/app.md',
+          '/fe/hot.md'
+
+        ]
+      }
     ]
+    // sidebar:{
+    //   '/fe':[
+    //     {
+    //       text:'入门实战',
+    //       children:[
+    //         '/fe/README.md',
+    //         '/fe/css.md',
+    //         '/fe/Javascript.md',
+    //         '/fe/project.md',
+    //         '/fe/interview.md',
+    //         '/fe/server.md',
+    //         '/fe/vue.md',
+    //         '/fe/react.md',
+    //         '/fe/framework.md',
+    //         '/fe/typescript.md',
+    //         '/fe/node.md',
+    //         '/fe/fis.md',
+    //         '/fe/miniapp.md',
+    //         '/fe/arch.md',
+    //         '/fe/browser.md',
+    //         '/fe/app.md',
+    //         '/fe/hot.md'
+    //       ]
+    //     },
+    //     {
+    //       text:'进阶',
+    //       children:[]
+    //     },
+    //     {
+    //       text:'通用技能'
+    //     }
+    //   ],
+    //   '/it':[
+    //     {
+    //       text:'通用技能',
+    //       children:[
+    //         '/it/soft.md',
+    //         '/it/internet.md',
+    //         '/it/algorithm.md',
+    //       ]
+    //     }
+    //   ]
+    // }
   }
 }
