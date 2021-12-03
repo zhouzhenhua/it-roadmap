@@ -5,6 +5,10 @@ module.exports = {
   themeConfig:{
     navbar:[
       {
+        text:'前端',
+        link:'/fe/'
+      },
+      {
         text:'常用工具',
         children:[
           {text:"正则表达式",link:"https://any86.github.io/any-rule/"},
@@ -19,8 +23,6 @@ module.exports = {
           {text:"知乎",link:"https://www.zhihu.com/people/woniuppp"},
           {text:"B站",link:"https://space.bilibili.com/26995758"},
           {text:"云旅游",link:"https://livechina.cctv.com/mlzg/index.shtml?spm=0.PiHRJ12Bw7m4.EVbEpxjQVGbO.4"},
-          {text:"海洋之声",link:"https://virtocean.com/"},
-
         ]
       },
       {
@@ -29,67 +31,27 @@ module.exports = {
       },
     ],
     sidebar:[
-      {
-        text:'HTML+CSS',
-        link:'/fe/css.html',
-      },{
-        text:'Javascript',
-        link:'/fe/Javascript.html',
-      },{
-        text:'实战开发',
-        link:'/fe/project.html',
-      },{
-        text:'面试',
-        link:'/fe/interview.html',
-      },{
-        text:'折腾自己的服务器',
-        link:'/fe/server.html',
-      },{
-        text:'Vue',
-        link:'/fe/vue.html',
-      },{
-        text:'React',
-        link:'/fe/react.html',
-      },{
-        text:'框架设计理念',
-        link:'/fe/framework.html',
-      },{
-        text:'Typescript',
-        link:'/fe/typescript.html',
-      },{
-        text:'Node',
-        link:'/fe/node.html',
-      },{
-        text:'工程化',
-        link:'/fe/fis.html',
-      },{
-        text:'软技能',
-        link:'/it/soft.html',
-      },{
-        text:'小程序',
-        link:'/fe/miniapp.html',
-      // },{
-      //   text:'测试',
-      //   link:'/fe/test.html',
-      },{
-        text:'计算机网络',
-        link:'/it/internet.html',
-      },{
-        text:'算法和数据结构',
-        link:'/it/algorithm.html',
-      },{
-        text:'项目实战',
-        link:'/fe/arch.html',
-      },{
-        text:'浏览器原理',
-        link:'/fe/browser.html',
-      },{
-        text:'App开发',
-        link:'/fe/app.html',
-      },{
-        text:'热门技术',
-        link:'/fe/hot',
-      },
+      '/fe/README.md',
+      '/fe/css.md',
+      '/fe/Javascript.md',
+      '/fe/project.md',
+      '/fe/interview.md',
+      '/fe/server.md',
+      '/fe/vue.md',
+      '/fe/react.md',
+      '/fe/framework.md',
+      '/fe/typescript.md',
+      '/fe/node.md',
+      '/fe/fis.md',
+      '/it/soft.md',
+      '/fe/miniapp.md',
+      // '/fe/test.md',
+      '/it/internet.md',
+      '/it/algorithm.md',
+      '/fe/arch.md',
+      '/fe/browser.md',
+      '/fe/app.md',
+      '/fe/hot.md'
     ]
   }
 }
