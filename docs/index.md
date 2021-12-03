@@ -7,7 +7,7 @@ title: '大圣前端学习路线图'
 <!-- ['❌','✅','🔥','⭐'] -->
 
 <roadmap :height="5000" :data="[
-  { title:'大圣前端路线图',x:400,y:20 ,download:true},
+  { title:'小圣前端路线图',x:400,y:20 ,download:true},
   { title:'⭐HTML+CSS', y:130,link:'/fe/css',
     left:[
       ['HTML基础'],
