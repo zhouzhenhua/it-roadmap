@@ -258,7 +258,7 @@ title: '大圣前端学习路线图'
       ['产品能力'],
     ]
   },
-  { title:'小程序', link:'/fe/miniapp',
+  { title:'⭐小程序', link:'/fe/miniapp',
     left:[
       ['小程序入门'],
       ['模板语法'],
@@ -360,7 +360,7 @@ title: '大圣前端学习路线图'
     ]
   } ,
   { title:'浏览器原理', link:'/fe/browser'} ,
-  { title:'App开发', link:'/fe/app',
+  { title:'⭐App开发', link:'/fe/app',
     left:[
       ['React Native'],
       ['❌Weex'],
@@ -369,7 +369,7 @@ title: '大圣前端学习路线图'
       ['Flutter'],
     ],
   } ,
-  { title:'热门技术', link:'/fe/hot',
+  { title:'⭐热门技术', link:'/fe/hot',
     left:[
       ['Electron'],
       ['Rust'],
