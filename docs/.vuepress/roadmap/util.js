@@ -52,7 +52,7 @@ function drawQrcode(canvas) {
 
   const title = `关注公众号，学习不迷路
 来源:https://shengxinjing.cn
-山顶见`
+好好学习，天天向上`
   const x = 0
   const y = 20
   const width = 300
