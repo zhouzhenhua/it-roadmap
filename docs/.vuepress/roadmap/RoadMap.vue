@@ -1,6 +1,6 @@
 <template>
-  <div>
-    <button @click="downloadCanvas">导出图片</button>
+  <div class="map-container">
+    <button class="download-btn" @click="downloadCanvas">导出图片</button>
     <canvas ref="canvasRef" :height="height" width="940" />
   </div>
 </template>
@@ -15,10 +15,13 @@ const props = defineProps({
 let canvasRef = ref()
 
 function canvasClick(e) {
-  console.log(e.target)
-  console.log(e.target.link)
-  if (e.target && e.target.link) {
-    location.href = e.target.link
+  if(e.target){
+    if(e.target.download){
+      downloadCanvas()
+    }
+    if(e.target.link){
+      location.href = e.target.link
+    }
   }
 }
 
@@ -54,11 +57,37 @@ onMounted(() => {
 </script>
 
 <style>
-.roadmap-container {
-  font-family: Helvetica, "Hiragino Sans GB", "Microsoft Yahei", "微软雅黑",
-    Arial, sans-serif;
+.map-container{
   position: relative;
-  /* background-color: #595959; */
+}
+h1{
+  text-align: center;
+}
+:root{
+  --content-width: 940px;
+}
+.download-btn{
+  position: absolute;
+  right:39px;
+  top:-55px;
+  margin-left:30px;
+    display: inline-block;
+    margin-left:36px;
+    line-height: 1;
+    white-space: nowrap;
+    cursor: pointer;
+    background: #83afdb;
+    border: 1px solid #dcdfe6;
+    color: #fff;
+    -webkit-appearance: none;
+    text-align: center;
+    box-sizing: border-box;
+    outline: 0;
+    transition: .1s;
+    font-weight: 500;
+    padding: 12px 20px;
+    font-size: 14px;
+    border-radius: 4px;
 }
 </style>
 

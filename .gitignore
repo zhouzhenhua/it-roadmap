@@ -107,3 +107,7 @@ docs/.vuepress/dist
 
 # TernJS port file
 .tern-port
+.temp
+docs/.vuepress/.temp
+.cache
+docs/.vuepress/.cache

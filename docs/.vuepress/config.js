@@ -6,14 +6,14 @@ module.exports = {
     nav:[
       {
         text:'常用工具',
-        items:[
+        children:[
           {text:"正则表达式",link:"https://any86.github.io/any-rule/"},
           {text:"mdnice",link:"https://mdnice.com/"},
         ]
       },
       {
         text:'摸鱼必备',
-        items:[
+        children:[
           {text:"在线街机",link:"https://play.wo1wan.com/"},
           {text:"在线街机",link:"https://play.wo1wan.com/"},
           {text:"在线看大熊猫",link:"https://game.chronodivide.com/"}

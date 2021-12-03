@@ -1,11 +1,13 @@
 ---
-home: true
-
+# home: true
+sidebar: false
+title: '大圣前端学习路线图'
 ---
+# 大圣前端学习路线图
 <!-- ['❌','✅','🔥','⭐'] -->
 
 <roadmap :height="5000" :data="[
-  { title:'大圣前端路线图',x:400,y:20 },
+  { title:'大圣前端路线图',x:400,y:20 ,download:true},
   { title:'⭐HTML+CSS', y:130,link:'/fe/css',
     left:[
       ['HTML基础'],
@@ -299,6 +301,10 @@ home: true
     left:[
       ['互联网如何工作'],
       ['什么是HTTP'],
+    ],
+    right:[
+      ['什么是TCP'],
+      ['DNS'],
     ]
   } ,
   { title:'算法和数据结构', link:'/it/algorithm',y:200,

@@ -118,8 +118,6 @@ export function drawMap(dom, data) {
   }
 
   dom.height = data[data.length-1].y+40+20
-
-  
   let canvas = new fabric.Canvas(dom, {
     containerClass: 'roadmap-container',
     hoverCursor: 'pointer',
@@ -251,6 +249,10 @@ function drawRect(item, canvas) {
     lockMovementX: true,
     lockMovementY: true
   })
+  if(item.download){
+    group.download = true
+  }
+
   canvas.add(group)
 
   if (tag) {
@@ -278,6 +280,8 @@ function drawRect(item, canvas) {
       lockMovementX: true,
       lockMovementY: true
     })
+    // if(item.download){
+    // }
     canvas.add(g)
     canvas.bringForward(g)
 
