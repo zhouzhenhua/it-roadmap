@@ -70,16 +70,16 @@ title: '大圣前端学习路线图'
       ['如何离职'],
     ]
   } ,
-  { title:'✅折腾自己的服务器',x:-162,y:170,link:'server',
+  { title:'✅网站搭建',x:-162,y:170,link:'server',
     left:[
       ['购买云机器'],
       ['购买域名'],
       ['nginx配置'],
-      ['百度统计'],
+      ['Linux'],
     ],
     right:[
       ['Vuepress'],
-      ['Vitepress'],
+      ['❌Vitepress'],
       ['Dumi'],
       ['Gastby'],
     ]
