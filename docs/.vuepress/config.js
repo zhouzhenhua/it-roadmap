@@ -14,10 +14,11 @@ module.exports = {
       {
         text:'摸鱼必备',
         children:[
-          {text:"在线街机",link:"https://play.wo1wan.com/"},
+          {text:"在线街机",link:"https://www.yikm.net/"},
           {text:"在线看大熊猫",link:"http://live.ipanda.com/xmcd/"},
           {text:"知乎",link:"https://www.zhihu.com/people/woniuppp"},
-          {text:"B站",link:"https://space.bilibili.com/26995758"}
+          {text:"B站",link:"https://space.bilibili.com/26995758"},
+          {text:"云旅游",link:"https://livechina.cctv.com/mlzg/index.shtml?spm=0.PiHRJ12Bw7m4.EVbEpxjQVGbO.4"},
         ]
       },
       {
