@@ -8,7 +8,7 @@ title: '大圣前端学习路线图'
 
 <roadmap :height="5000" :data="[
   { title:'大圣前端路线图',x:400,y:20 ,download:true},
-  { title:'⭐HTML+CSS', y:130,link:'/fe/css',
+  { title:'✅HTML+CSS', y:130,link:'/fe/css',
     left:[
       ['HTML基础'],
       ['环境基本安装',[
@@ -16,8 +16,8 @@ title: '大圣前端学习路线图'
         ['Chrome浏览器'],
       ]]
     ],right:[
-      ['CSS常见布局'],
-      ['CSS基础',[
+      ['🔥CSS常见布局'],
+      ['🔥CSS基础',[
         ['选择器'],
         ['盒模型'],
         ['布局'],
@@ -28,7 +28,7 @@ title: '大圣前端学习路线图'
   { title:'Javascript', link:'/fe/javascript',
     y:140,
     left:[
-      ['语法入门',[
+      ['✅语法入门',[
         ['ES6语法'],
         ['Dom'],
         ['🔥红宝书'],
@@ -70,7 +70,7 @@ title: '大圣前端学习路线图'
       ['如何离职'],
     ]
   } ,
-  { title:'折腾自己的服务器',x:-162,y:170,link:'server',
+  { title:'✅折腾自己的服务器',x:-162,y:170,link:'server',
     left:[
       ['购买云机器'],
       ['购买域名'],
@@ -86,7 +86,7 @@ title: '大圣前端学习路线图'
   } ,
   { title:'进阶之路',y:100,
   } ,
-  { title:'Vue3',y:100,link:'/fe/vue',
+  { title:'🔥Vue3',y:100,link:'/fe/vue',
     left:[
       ['入门',[-50],[
         ['清单应用'],
@@ -129,7 +129,7 @@ title: '大圣前端学习路线图'
       ]],
     ]
   } ,
-  {title:'框架设计理念',link:'fe/framework',
+  {title:'🔥框架设计理念',link:'fe/framework',
   y:280,
     left:[
       ['编译Compiler'],
@@ -143,7 +143,7 @@ title: '大圣前端学习路线图'
       ['Solidjs'],
     ]
   },
-  { title:'React',y:190,link:'/fe/react',
+  { title:'🔥React',y:190,link:'/fe/react',
     left:[
       ['入门',[-50],[
         ['cra脚手架'],
@@ -306,7 +306,7 @@ title: '大圣前端学习路线图'
       ['性能监控'],
     ]
   } ,
-  { title:'计算机网络', link:'/it/internet',y:120,
+  { title:'🔥计算机网络', link:'/it/internet',y:120,
     left:[
       ['互联网如何工作'],
       ['什么是HTTP'],
@@ -316,7 +316,7 @@ title: '大圣前端学习路线图'
       ['DNS'],
     ]
   } ,
-  { title:'算法和数据结构', link:'/it/algorithm',y:200,
+  { title:'🔥算法和数据结构', link:'/it/algorithm',y:200,
     left:[
       ['排序'],
       ['搜索'],
