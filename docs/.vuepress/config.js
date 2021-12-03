@@ -64,9 +64,9 @@ module.exports = {
       },{
         text:'小程序',
         link:'/fe/miniapp.html',
-      },{
-        text:'测试',
-        link:'/fe/test.html',
+      // },{
+      //   text:'测试',
+      //   link:'/fe/test.html',
       },{
         text:'计算机网络',
         link:'/it/internet.html',
