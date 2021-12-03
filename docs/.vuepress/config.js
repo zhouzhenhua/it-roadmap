@@ -26,7 +26,64 @@ module.exports = {
     sidebar:[
       {
         text:'HTML+CSS',
-        path:'/fe/css',
+        link:'/fe/css',
+      },{
+        text:'Javascript',
+        link:'/fe/Javascript',
+      },{
+        text:'实战开发',
+        link:'/fe/project',
+      },{
+        text:'面试',
+        link:'/fe/interview',
+      },{
+        text:'折腾自己的服务器',
+        link:'/fe/server',
+      },{
+        text:'Vue',
+        link:'/fe/vue',
+      },{
+        text:'React',
+        link:'/fe/react',
+      },{
+        text:'框架设计理念',
+        link:'/fe/framework',
+      },{
+        text:'Typescript',
+        link:'/fe/typescript',
+      },{
+        text:'Node',
+        link:'/fe/node',
+      },{
+        text:'工程化',
+        link:'/fe/fis',
+      },{
+        text:'软技能',
+        link:'/it/soft',
+      },{
+        text:'小程序',
+        link:'/fe/miniapp',
+      },{
+        text:'测试',
+        link:'/fe/test',
+      },{
+        text:'计算机网络',
+        link:'/it/internet',
+      },{
+        text:'算法和数据结构',
+        link:'/it/algorithm',
+      },{
+        text:'项目实战',
+        link:'/fe/arch',
+      },{
+        text:'浏览器原理',
+        link:'/fe/browser',
+      },{
+        text:'App开发',
+        link:'/fe/app',
+      },{
+        text:'热门技术',
+        link:'/fe/hot',
       },
     ]
   }
