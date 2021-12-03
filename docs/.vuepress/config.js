@@ -2,7 +2,17 @@ module.exports = {
   title: '大圣编程路线图',
   description: '学编程的最佳实践.',
   bundler:'@vuepress/bundler-vite',
+  // head: [['link', { rel: 'icon', href: '/images/logo.png' }]],
+  head: [
+    ['style', {},`
+iframe{
+  width:100%;
+  height:500px;
+}`]
+  ],
   themeConfig:{
+    contributorsText: '贡献者',
+    lastUpdatedText:'上次更新',
     navbar:[
       {
         text:'前端',
