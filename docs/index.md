@@ -276,19 +276,7 @@ title: '大圣前端学习路线图'
       ['小程序原理'],
     ]
   } ,
-  { title:'测试', link:'/fe/test',y:120,
-    left:[
-      ['单元测试',[
-        ['Jest'],
-      ]],
-    ],
-    right:[
-      ['E2E测试',[
-        ['cypress']
-      ]],
-    ]
-  } ,
-  { title:'性能优化', link:'/fe/perf',y:100,
+  { title:'性能优化', link:'/fe/perf',y:160,
     left:[
       ['性能指标',[
         ['LCP'],
