@@ -97,7 +97,8 @@
 
 ## 免费文章和教程
 * [🔥廖雪峰的Git教程](https://www.liaoxuefeng.com/wiki/896043488029600)
-
+* [图解Git](http://marklodato.github.io/visual-git-guide/index-zh-cn.html)
+* [可视化Git](https://learngitbranching.js.org/?demo=&locale=zh_CN)
 ## 书籍推荐
 
 * [Pro Git](https://book.douban.com/subject/3420144/)

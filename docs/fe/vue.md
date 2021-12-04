@@ -49,14 +49,28 @@
       ]],
     ]
   } ,
-  { title:'书籍推荐', y:250,
+ {title:'🔥框架设计理念',
+  y:280,
+    left:[
+      ['编译Compiler'],
+      ['运行时Runtime'],
+      ['template JSX'],
+      ['响应式'],
+    ],
+    right:[
+      ['Angular'],
+      ['Svelte'],
+      ['Solidjs'],
+    ]
+  },
+  { title:'书籍推荐', y:120,
     left:[
       ['Testing Vue'],
     ],right:[
       ['深入浅出Vue'],
     ]
   } ,
-  { title:'和面试官谈笑风生',
+  { title:'和面试官谈笑风生',y:100
   } 
 ]" />
 
@@ -75,11 +89,12 @@
 * [掘金| 2021必知必会的vite+vue3项目最佳实践](https://juejin.cn/post/6926822933721513998)
 ## 免费视频
 
-[B站| 阮一峰推荐最佳学习 vue3 源码的利器 - mini-vue](https://www.bilibili.com/video/BV1Zy4y1J73E?spm_id_from=333.999.0.0)
-[B站| 8年老前端独家分享阅读 Vue3 源码技巧](https://www.bilibili.com/video/BV1xy4y1178G?spm_id_from=333.999.0.0)
-[B站| 【全网首发】Vue3.0光速上手「持续更新中」](https://www.bilibili.com/video/BV1Wh411X7Xp?spm_id_from=333.999.0.0)
-[B站| 【备战2021】Vite2 + Vue3项目最佳实践「持续更新中」](https://www.bilibili.com/video/BV1vX4y1K7bQ?spm_id_from=333.999.0.0)
-[B站| Vue3+Typescript从整合到项目实战](https://www.bilibili.com/video/BV1no4y1k7kJ?spm_id_from=333.999.0.0)
+* [React 与 Vue 框架的设计思路大 PK](https://www.bilibili.com/video/BV1az4y127Ga/)
+* [B站| 阮一峰推荐最佳学习 vue3 源码的利器 - mini-vue](https://www.bilibili.com/video/BV1Zy4y1J73E?spm_id_from=333.999.0.0)
+* [B站| 8年老前端独家分享阅读 Vue3 源码技巧](https://www.bilibili.com/video/BV1xy4y1178G?spm_id_from=333.999.0.0)
+* [B站| 【全网首发】Vue3.0光速上手「持续更新中」](https://www.bilibili.com/video/BV1Wh411X7Xp?spm_id_from=333.999.0.0)
+* [B站| 【备战2021】Vite2 + Vue3项目最佳实践「持续更新中」](https://www.bilibili.com/video/BV1vX4y1K7bQ?spm_id_from=333.999.0.0)
+* [B站| Vue3+Typescript从整合到项目实战](https://www.bilibili.com/video/BV1no4y1k7kJ?spm_id_from=333.999.0.0)
 
 ## 书籍推荐
 
