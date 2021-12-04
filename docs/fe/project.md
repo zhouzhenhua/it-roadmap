@@ -37,16 +37,18 @@
       ['item2+zsh'],
       ['Homebrew'],
       ['macbook pro'],
+      ['梯子'],
     ],right:[
-      ['Git',[-30],[
+      ['Git',[-50],[
         ['Github'],
         ['Gitee'],
       ]],
       ['记笔记',[
         ['Notion'],
         ['语雀'],
+        ['Typora'],
       ]],
-      ['Node.js',[50],[
+      ['Node.js',[60],[
         ['❌npm'],
         ['yarn'],
         ['🔥pnpm'],
