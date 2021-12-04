@@ -29,9 +29,12 @@ function canvasClick(e) {
 function add(x,y){
   return x*y
 }
-
+function getNow(){
+  const now = Date.now()
+}
 function downloadCanvas() {
   const canvas = canvasRef.value
+
   const dataURL = canvas.toDataURL({
     width: canvas.width,
     height: canvas.height,
@@ -40,7 +43,7 @@ function downloadCanvas() {
     format: 'png',
   })
   const link = document.createElement('a');
-  link.download = 'canvas.png';
+  link.download = `${canvas.title}-${Date.now()}.png`;
   link.href = dataURL;
   document.body.appendChild(link);
   link.click();

@@ -113,6 +113,7 @@ export function drawMap(dom, data) {
   let lastRect
   data = data.filter(v=>v.show!==false)
   // data[0].y = data[0].y+130
+  dom.title = data[0].title
   for (let i = 1; i < data.length; i++) {
     data[i].x = data[i - 1].x + (data[i].x || 0)
     data[i].y = data[i - 1].y + (data[i].y || 150)

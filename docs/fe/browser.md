@@ -17,6 +17,7 @@
 
 
 ## 技术文档
+[Chrome 开发者工具官方文档](https://developer.chrome.com/docs/devtools/)
 ## 精品文章
 * []()
 ## 免费视频

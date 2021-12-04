@@ -14,6 +14,25 @@ iframe{
   height:500px;
 }`]
   ],
+  extendsMarkdown:md=>{
+    // md.core.ruler.push('my_anchor', function ({tokens}) {
+    //   tokens.forEach((token,i) => {
+    //     const { type, content } = token;
+    //     if(content[0]=='[' && content.length>20){
+    //       tokens[i].content = 'xx'
+    //     }
+    //     const hrefIndex = token.attrIndex('href')
+    //     if(hrefIndex){
+    //     }
+    //   });
+    //   return tokens
+    // });
+  
+    // md.use()
+  },  
+  markdown:{
+    linkify:true
+  },
   themeConfig:{
     contributorsText: '贡献者',
     lastUpdatedText:'上次更新',
