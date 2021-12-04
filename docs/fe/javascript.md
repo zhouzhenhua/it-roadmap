@@ -112,7 +112,7 @@
 ## 免费视频
 * [B站| Javascript书籍全测评【前端必备】](https://www.bilibili.com/video/BV15f4y1D7Fo)
 * [B站| 零基础入门到精通加实战案例](https://www.bilibili.com/video/BV1Az4y1U7f5?p=1)
-
+* [B站| 天天造轮子-防抖节流](https://www.bilibili.com/video/BV1y3411r71u?spm_id_from=333.999.0.0)
 ## 书籍推荐
 
 * [Javascript编程艺术](https://book.douban.com/subject/6038371/)
