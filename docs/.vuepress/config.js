@@ -4,6 +4,15 @@ module.exports = {
   bundler:'@vuepress/bundler-vite',
   // head: [['link', { rel: 'icon', href: '/images/logo.png' }]],
   head: [
+
+    [
+      'link',
+      {
+        rel: 'shortcut icon',
+        type: 'image/x-icon',
+        href: `/logo.ico`,
+      },
+    ],
     ['style', {},`
 :root{
   --content-width: 940px;

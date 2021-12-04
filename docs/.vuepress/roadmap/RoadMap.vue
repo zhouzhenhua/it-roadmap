@@ -69,25 +69,25 @@ h1{
 .download-btn{
   position: absolute;
   right:39px;
-  top:-55px;
-  margin-left:30px;
-    display: inline-block;
-    margin-left:36px;
-    line-height: 1;
-    white-space: nowrap;
-    cursor: pointer;
-    background: #83afdb;
-    border: 1px solid #dcdfe6;
-    color: #fff;
-    -webkit-appearance: none;
-    text-align: center;
-    box-sizing: border-box;
-    outline: 0;
-    transition: .1s;
-    font-weight: 500;
-    padding: 12px 20px;
-    font-size: 14px;
-    border-radius: 4px;
+  top:-20px;
+  display: inline-block;
+  margin-left:36px;
+  line-height: 1;
+  white-space: nowrap;
+  cursor: pointer;
+  -webkit-appearance: none;
+  text-align: center;
+  box-sizing: border-box;
+  outline: 0;
+  transition: .1s;
+  font-weight: 500;
+  padding: 12px 20px;
+  font-size: 14px;
+  border-color: transparent;
+  color: #409eff;
+  background: 0 0;
+  padding-left: 0;
+  padding-right: 0;
 }
 </style>
 
