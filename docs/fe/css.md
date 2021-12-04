@@ -1,6 +1,9 @@
 # HTML + CSS 入门推荐
 
 <!-- ['❌','✅','🔥','⭐'] -->
+
+前端的世界里HTML就是我们的骨骼，承载着网页的显示内容，CSS修饰HTML的样式，让页面变得美观，是学习前端首先要掌握的技能，我们这一阶段的目的， 就是掌握常见布局的方式，最终能仿写一个网站首页的布局就算合格
+
 <roadmap :data="[
   {title:'HTML+CSS',download:true,x:400,y:20},
   { title:'学习目标', y:130,
@@ -58,7 +61,6 @@
   } 
 ]" />
 
-现在比较热门和成熟的解决方案就是ReactNative和Flutter
 
 ## 技术文档
 [HTML MDN](https://developer.mozilla.org/zh-CN/docs/Web/HTML/Element)
@@ -75,4 +77,3 @@
 * [css权威指南](https://book.douban.com/subject/2308234/)
 * [深入解析css](https://book.douban.com/subject/35021471/)
 
-## 付费教程
