@@ -19,7 +19,7 @@ Typescript给Javascript带来了类型系统，带来了更智能的提示和丝
     ],
     right:[
       ['接口类型',[
-        ['前后端交互智能提示']
+        ['智能提示']
       ]],
       ['Vue+TS'],
       ['React+TS'],

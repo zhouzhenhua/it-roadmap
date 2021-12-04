@@ -45,6 +45,7 @@ iframe{
     linkify:true
   },
   themeConfig:{
+    logo:"/logo.png",
     contributorsText: '贡献者',
     lastUpdatedText:'上次更新',
     navbar:[
@@ -62,11 +63,14 @@ iframe{
       {
         text:'摸鱼必备',
         children:[
+          // https://shadiao.app/#
           {text:"在线街机",link:"https://www.yikm.net/"},
+          {text:"假装更新系统",link:"https://fakeupdate.net/"},
           {text:"在线看大熊猫",link:"http://live.ipanda.com/xmcd/"},
           {text:"知乎",link:"https://www.zhihu.com/people/woniuppp"},
           {text:"B站",link:"https://space.bilibili.com/26995758"},
           {text:"云旅游",link:"https://livechina.cctv.com/mlzg/index.shtml?spm=0.PiHRJ12Bw7m4.EVbEpxjQVGbO.4"},
+          {text:'云游故宫',link:"https://www.dpm.org.cn/yygg.html"}
         ]
       },
       {
