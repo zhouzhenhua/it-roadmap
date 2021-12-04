@@ -21,23 +21,25 @@ module.exports = {
 iframe{
   width:100%;
   height:500px;
+  margin-bottom:20px;
+  border:2px solid #44a0d1;
+  border-radius: 10px;
 }`]
   ],
+  markdown:{
+    permalink:false,
+  },
   extendsMarkdown:md=>{
-    // md.core.ruler.push('my_anchor', function ({tokens}) {
-    //   tokens.forEach((token,i) => {
-    //     const { type, content } = token;
-    //     if(content[0]=='[' && content.length>20){
-    //       tokens[i].content = 'xx'
-    //     }
-    //     const hrefIndex = token.attrIndex('href')
-    //     if(hrefIndex){
-    //     }
-    //   });
-    //   return tokens
+
+    // md.core.ruler.push('my_anchor', function (state) {
+    //     const tokens = state.tokens
+    //     tokens.forEach((token,i)=>{
+    //       if(token.type="inline" && token.children && token.content[0]=='['){
+    //           console.log(token.content)
+    //           token.content = 'xx'
+    //       }
+    //     })
     // });
-  
-    // md.use()
   },  
   markdown:{
     linkify:true
