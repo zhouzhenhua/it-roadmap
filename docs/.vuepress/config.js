@@ -91,7 +91,7 @@ iframe{
         children:[
           '/fe/vue.md',
           '/fe/react.md',
-          '/fe/framework.md',
+          // '/fe/framework.md',
           '/fe/typescript.md',
           '/fe/node.md',
           '/fe/fis.md',
@@ -111,7 +111,6 @@ iframe{
           '/fe/miniapp.md',
           '/fe/app.md',
           '/fe/hot.md'
-
         ]
       }
     ]

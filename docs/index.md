@@ -129,7 +129,7 @@ title: '大圣前端学习路线图'
       ]],
     ]
   } ,
-  {title:'🔥框架设计理念',link:'fe/framework.html',
+  {title:'🔥框架设计理念',link:'fe/vue.html',
   y:280,
     left:[
       ['编译Compiler'],
