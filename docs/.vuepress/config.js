@@ -38,8 +38,15 @@ iframe{
       {
         text:'常用工具',
         children:[
-          {text:"正则表达式",link:"https://any86.github.io/any-rule/"},
+          {text:'时钟',link:"https://pandafe.gitee.io/clock/"},
+          {text:'正则可视化',link:"https://jex.im/regulex/#!flags=&re=%5E(a%7Cb)*%3F%24"},
           {text:"mdnice",link:"https://mdnice.com/"},
+          {text:'时间轴工具',link:"https://time.graphics/editor"},
+          {text:'扁平配图unDraw',link:"https://undraw.co/illustrations"},
+          {text:'创可贴做海报',link:"https://www.chuangkit.com/"},
+          {text:'创可贴做海报',link:"https://www.chuangkit.com/"},
+          {text:"正则表达式",link:"https://any86.github.io/any-rule/"},
+          {text:'图片清除背景',link:"https://remove.bg/"}
         ]
       },
       {
