@@ -1,1 +1,64 @@
-# algorithm算法
+# 算法数据结构
+<!-* ['❌','✅','🔥','⭐'] -->
+
+算法和数据结构是程序世界的基本规则，前端日常工作中其实用不到算法，算法属于程序员世界的内力，从最功利的角度来说，你就算是为了过大厂的面试，也需要学习算法和数据结构的知识，而且算法还会帮助我们更好的写代码，帮助我们应对更复杂的场景
+
+前端这几年的发展和框架的更迭，很多架构上的变化本质都是算法和数据结构的变化，React Fiber核心的逻辑就是为了解决树形结构Diff可能导致卡顿的问题，把树改造成了链表，类似的场景还有很多，而且你阅读Vue，React等框架源码的时候，也会有很多算法的实现逻辑
+
+我们从工程实现的角度来学习算法，这部分知识是很难过时的，一本算法第四版就是你最好的算法教材，Leetcode刷题200道就是学算法最好的量化指标
+
+所以趁现在开始学习吧
+
+<roadmap :data="[
+  {title:'算法和数据结构',download:true,x:400,y:20},
+  { title:'知识体系', y:240,
+    left:[
+      ['排序'],
+      ['搜索'],
+      ['二分'],
+      ['递归'],
+      ['回溯'],
+      ['贪心算法'],
+      ['动态规划'],
+    ],
+    right:[
+      ['数组'],
+      ['链表'],
+      ['树'],
+      ['堆栈'],
+      ['图'],
+      ['Vue中的算法',[
+        ['链表'],
+        ['虚拟Dom树'],
+        ['最长递增子序列'],
+      ]],
+      ['React中的算法'],
+    ]
+  } ,
+  {title:'面试无忧'}
+]" />
+
+
+## 技术文档
+## 精品文章
+
+* [How Does the Internet Work?](https://web.stanford.edu/class/msande91si/www-spr04/readings/week1/InternetWhitepaper.htm)
+* [掘金| 图解 HTTP 缓存](https://juejin.cn/post/6844904153043435533)
+* [TCP 的那些事儿（上）](https://coolshell.cn/articles/11564.html)
+* [TCP 的那些事儿（下）](https://coolshell.cn/articles/11609.html)
+
+## 免费视频
+* [B站| 互联网是如何运作的？](https://www.bilibili.com/video/BV1Rz4y197Jd)
+## 书籍推荐
+
+* [🔥算法（第4版）](https://book.douban.com/subject/19952400/)
+* [算法图解](https://book.douban.com/subject/26979890/)
+* [啊哈!算法](https://book.douban.com/subject/25894685/)
+* [算法导论（新手不推荐）](https://book.douban.com/subject/1885170/)
+
+
+## 付费教程
+
+::: warning @todo
+考虑做个前端算法课，leetcode带着刷200题，一题一块钱那种
+:::
