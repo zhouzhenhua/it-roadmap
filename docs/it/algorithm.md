@@ -38,17 +38,7 @@
   {title:'面试无忧'}
 ]" />
 
-
-## 技术文档
-## 精品文章
-
-* [How Does the Internet Work?](https://web.stanford.edu/class/msande91si/www-spr04/readings/week1/InternetWhitepaper.htm)
-* [掘金| 图解 HTTP 缓存](https://juejin.cn/post/6844904153043435533)
-* [TCP 的那些事儿（上）](https://coolshell.cn/articles/11564.html)
-* [TCP 的那些事儿（下）](https://coolshell.cn/articles/11609.html)
-
-## 免费视频
-* [B站| 互联网是如何运作的？](https://www.bilibili.com/video/BV1Rz4y197Jd)
+<!-- ## 免费视频 -->
 ## 书籍推荐
 
 * [🔥算法（第4版）](https://book.douban.com/subject/19952400/)

@@ -26,6 +26,9 @@ iframe{
   border-radius: 10px;
 }`]
   ],
+  markdown:{
+    linkify:true
+  },
   themeConfig:{
     logo:"/logo.png",
     contributorsText: '贡献者',
