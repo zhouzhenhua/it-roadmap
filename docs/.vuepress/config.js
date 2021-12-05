@@ -89,6 +89,7 @@ iframe{
           '/fe/node.md',
           '/fe/fis.md',
           '/fe/arch.md',
+          '/fe/perf.md',
           '/fe/browser.md',
         ]
       },{

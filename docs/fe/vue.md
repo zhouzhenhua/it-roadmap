@@ -103,4 +103,4 @@
 
 ## 付费课程
 
-* [极客时间| 大圣带你玩转Vue3全家桶](https://time.geekbang.org/column/intro/100094401?code=r78oEOqzZRyXf4pq6sDsv55Txm-8xGuB94dQMOW19Q8%3D&page=A)
+* [极客时间| 大圣带你玩转Vue3全家桶](http://gk.link/a/10BM3)
