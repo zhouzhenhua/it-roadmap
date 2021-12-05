@@ -11,18 +11,27 @@
 <script>
 import Layout from '@vuepress/theme-default/lib/client/layouts/Layout.vue'
 import {ref,onMounted} from 'vue'
+import { useRouter, useRoute } from 'vue-router'
 export default {
   components: {
     Layout,
   },
   setup(){
     let badge = ref('')
-
-    onMounted(()=>{
+    const router = useRouter()
+    const route = useRoute()
+    router.afterEach((to) => {
+      if(location.pathname!==to.path){
+        changeBadge()
+      }
+    })
+    function changeBadge(){
       if(location.hostname==='shengxinjing.cn'){
-        console.log(badge)
         badge.value = `https://visitor-badge.glitch.me/badge?page_id=shengxinjing-cn.${location.pathname}`
       }
+    }
+    onMounted(()=>{
+      changeBadge()
     })
     return {badge}
   }
