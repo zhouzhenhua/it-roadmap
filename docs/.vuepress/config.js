@@ -1,7 +1,10 @@
+const { path } = require('@vuepress/utils')
+
 module.exports = {
   title: '大圣编程路线图',
   description: '学编程的最佳实践.',
   bundler:'@vuepress/bundler-vite',
+  theme: path.resolve(__dirname, './theme'),
   // head: [['link', { rel: 'icon', href: '/images/logo.png' }]],
   head: [
 
@@ -27,12 +30,20 @@ iframe{
 }`]
   ],
   markdown:{
-    linkify:true
+    linkify:true,
+    // slugify(str){
+    //   // return 'xx'+str
+    //   // console.log(arguments)
+    //   console.log(str)
+    //   // return  crypto.createHash('md5').update(str).digest('hex').slice(0,4);
+    // }
   },
+
   themeConfig:{
     logo:"/logo.png",
     contributorsText: '贡献者',
     lastUpdatedText:'上次更新',
+    notFound:['页面不存在'],
     navbar:[
       {
         text:'前端',
@@ -46,8 +57,7 @@ iframe{
           {text:"mdnice",link:"https://mdnice.com/"},
           {text:'时间轴工具',link:"https://time.graphics/editor"},
           {text:'扁平配图unDraw',link:"https://undraw.co/illustrations"},
-          {text:'创可贴做海报',link:"https://www.chuangkit.com/"},
-          {text:'创可贴做海报',link:"https://www.chuangkit.com/"},
+          {text:'创客贴做海报',link:"https://www.chuangkit.com/"},
           {text:"正则表达式",link:"https://any86.github.io/any-rule/"},
           {text:'图片清除背景',link:"https://remove.bg/"}
         ]
@@ -55,7 +65,6 @@ iframe{
       {
         text:'摸鱼必备',
         children:[
-          // https://shadiao.app/#
           {text:"在线街机",link:"https://www.yikm.net/"},
           {text:"假装更新系统",link:"https://fakeupdate.net/"},
           {text:"在线看大熊猫",link:"http://live.ipanda.com/xmcd/"},
