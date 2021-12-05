@@ -69,7 +69,9 @@
 * [菜鸟教程](https://www.runoob.com/html/html-elements.html)
 ## 免费视频
 
-[尚硅谷HTML+CSS](https://www.bilibili.com/video/BV1XJ411X7Ud?from=search&seid=15271531777025567437&spm_id_from=333.337.0.0)
+::: warning @todo
+B站
+:::
 
 ## 书籍推荐
 

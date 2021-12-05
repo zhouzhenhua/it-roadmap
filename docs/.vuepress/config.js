@@ -26,24 +26,6 @@ iframe{
   border-radius: 10px;
 }`]
   ],
-  markdown:{
-    permalink:false,
-  },
-  extendsMarkdown:md=>{
-
-    // md.core.ruler.push('my_anchor', function (state) {
-    //     const tokens = state.tokens
-    //     tokens.forEach((token,i)=>{
-    //       if(token.type="inline" && token.children && token.content[0]=='['){
-    //           console.log(token.content)
-    //           token.content = 'xx'
-    //       }
-    //     })
-    // });
-  },  
-  markdown:{
-    linkify:true
-  },
   themeConfig:{
     logo:"/logo.png",
     contributorsText: '贡献者',

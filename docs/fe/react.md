@@ -75,18 +75,14 @@
 * [掘金|  React全部api解读+基础实践大全(夯实基础2万字总结)](https://juejin.cn/post/6950063294270930980)
 ## 免费视频
 
-* [React 与 Vue 框架的设计思路大 PK](https://www.bilibili.com/video/BV1az4y127Ga/)
-* [B站| 9分钟掌握React Hooks正确认知](https://www.bilibili.com/video/BV1JU4y1E73v?from=search&seid=1480540993076541477&spm_id_from=333.337.0.0)
-* [B站| 8年老前端独家分享阅读 Vue3 源码技巧](https://www.bilibili.com/video/BV1xy4y1178G?spm_id_from=333.999.0.0)
-* [B站| 【全网首发】Vue3.0光速上手「持续更新中」](https://www.bilibili.com/video/BV1Wh411X7Xp?spm_id_from=333.999.0.0)
-* [B站| 【备战2021】Vite2 + Vue3项目最佳实践「持续更新中」](https://www.bilibili.com/video/BV1vX4y1K7bQ?spm_id_from=333.999.0.0)
-* [B站| Vue3+Typescript从整合到项目实战](https://www.bilibili.com/video/BV1no4y1k7kJ?spm_id_from=333.999.0.0)
-
+* [B站| React 与 Vue 框架的设计思路大 PK](https://www.bilibili.com/video/BV1az4y127Ga/)
+* [B站| 9分钟掌握React Hooks正确认知](https://www.bilibili.com/video/BV1JU4y1E73v?from=search&seid=1480540993076541477)
+* [B站| 你必须要掌握的React知识点](https://www.bilibili.com/video/BV1rK411F7x3)
+* [B站| 从0到1开发可视化拖拽H5编辑器(React)](https://www.bilibili.com/video/BV14b4y1R7hk)
+::: warning @todo
+B站录制
+:::
 ## 书籍推荐
-
-* [深入浅出Vue.js](https://book.douban.com/subject/32581281/)
-* [Testing Vue.js Applications](https://book.douban.com/subject/33338290/)
-
+看文档
 ## 付费课程
-
-* [极客时间| 大圣带你玩转Vue3全家桶](https://time.geekbang.org/column/intro/100094401?code=r78oEOqzZRyXf4pq6sDsv55Txm-8xGuB94dQMOW19Q8%3D&page=A)
+制作中

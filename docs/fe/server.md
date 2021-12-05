@@ -33,6 +33,10 @@
 
 [B站| 手把手带你从0搭建个人网站，小白可懂的保姆级教程](https://www.bilibili.com/video/BV1rU4y1J785)
 [B站| 手把手教你从0开始搭建自己的个人博客 |无坑版视频教程| hexo](https://www.bilibili.com/video/BV1Yb411a7ty/?spm_id_from=333.788.recommend_more_video.8)
+
+::: warning @todo
+B站录制
+:::
 ## 书籍推荐
 实操为主，不推荐书了，入门的时候看太厚的书容易被劝退
 

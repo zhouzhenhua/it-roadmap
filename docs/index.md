@@ -183,20 +183,31 @@ title: '大圣前端学习路线图'
       ]],
     ]
   } ,
-  { title:'Typescript',y:260, link:'/fe/typescript.html',
+  { title:'Typescript',y:310, link:'/fe/typescript.html',
     left:[
       ['基础类型'],
       ['Interface'],
       ['复合类型'],
-      ['泛型<T>'],
+      ['操作符',[
+        ['keyof'],
+        ['in'],
+      ]],
+      ['函数类型'],
     ],
     right:[
-      ['接口类型'],
       ['Vue+TS'],
       ['React+TS'],
+      ['泛型<T>',[
+        ['extends'],
+        ['infer'],
+        ['Partial'],
+        ['Record'],
+        ['Omit'],
+      ]],
+      ['网络接口类型'],
     ],
   } ,
-  { title:'Node.js', y:180,link:'/fe/node.html',
+  { title:'Node.js', y:220,link:'/fe/node.html',
     left:[
       ['Node入门'],
       ['Web开发',[
