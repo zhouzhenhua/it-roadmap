@@ -30,13 +30,6 @@ jobs:
         run: npm install
       - name: build app
         run: npm run build
-      - name: Run a one-line script
-        run: echo ${{ secrets.REMOTE_HOST }}
-      # - name: Prepare SSH
-      #   run: >
-      #     cd ~ && mkdir .ssh &&
-      #     touch ~/.ssh/known_hosts &&
-      #     ssh-keyscan -H "${{ secrets.REMOTE_HOST }}" >>~/.ssh/known_hosts
       - name: copy file via ssh password
         uses: appleboy/scp-action@master
         with:
@@ -46,14 +39,3 @@ jobs:
           port: 22
           source: "docs/"
           target: ${{ secrets.REMOTE_TARGET }}
-      # - name: deploy to server
-      #   uses: easingthemes/ssh-deploy@main
-      #   env:
-      #     SSH_PRIVATE_KEY: ${{ secrets.SERVER_SSH_KEY }}
-      #     ARGS: "-rltgoDzvO --delete"
-      #     SOURCE: "docs/.vuepress/dist/"
-      #     REMOTE_HOST: ${{ secrets.REMOTE_HOST }}
-      #     REMOTE_USER: ${{ secrets.REMOTE_USER }}
-      #     TARGET: ${{ secrets.REMOTE_TARGET }}
-      #     EXCLUDE: "/dist/, /node_modules/"
-
