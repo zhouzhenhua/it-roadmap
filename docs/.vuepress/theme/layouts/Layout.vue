@@ -19,21 +19,24 @@ export default {
   setup() {
     let badge = ref('')
     const router = useRouter()
-    if (process.env.NODE_ENV === 'production' && typeof window !== 'undefined') {
-      router.afterEach((to) => {
-        if (location.pathname !== to.path) {
+    // if (process.env.NODE_ENV === 'production' && typeof window !== 'undefined') {
+      router.afterEach((to,from) => {
+        if(to.hash){
+          return 
+        }
+        if (from.path !== to.path) {
           changeBadge()
         }
       })
       function changeBadge() {
-        if (location.hostname === 'shengxinjing.cn') {
+        // if (location.hostname === 'shengxinjing.cn') {
           badge.value = `https://visitor-badge.glitch.me/badge?page_id=shengxinjing-cn.${location.pathname}`
-        }
+        // }
       }
       onMounted(() => {
         changeBadge()
       })
-    }
+    // }
 
 
     return { badge }
