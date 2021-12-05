@@ -41,5 +41,7 @@
 * [WebKit 技术内幕](https://book.douban.com/subject/25910556/)
 
 ## 付费教程
+
+* [极客时间| winter重学前端](http://gk.link/a/10QbX)
 * [极客时间| 浏览器原理](http://gk.link/a/10QaZ)
 * [极客时间| 图解Google V8](http://gk.link/a/10Qb0)
