@@ -102,7 +102,7 @@ Java，Python等岗位的知识图谱正在制作中，欢迎一起共建一个�
 
 ## 关于我
 
-十年程序员，曾就职于百度，现在是自由职业，致力于做国内最好的IT讲师，正在计划带上媳妇和狗房车旅行，下面的视频可以更立提的了解我
+十年程序员，曾就职于百度，现在是自由职业，致力于做国内最好的IT讲师，正在计划带上媳妇和狗房车旅行，下面的视频可以更立体的了解我
 
 
 [![Bilibili](https://img.shields.io/badge/dynamic/json?labelColor=FE7398&logo=bilibili&logoColor=white&label=B站&color=00aeec&query=%24.data.totalSubs&url=https%3A%2F%2Fapi.spencerwoo.com%2Fsubstats%2F%3Fsource%3Dbilibili%26queryKey%3D26995758)](https://space.bilibili.com/26995758)
