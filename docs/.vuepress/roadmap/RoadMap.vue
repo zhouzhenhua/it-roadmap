@@ -80,6 +80,8 @@ onMounted(() => {
 .map-container p{
   font-size:12px;
   text-align: center;
+
+  margin:0;
 }
 h1{
   text-align: center;
