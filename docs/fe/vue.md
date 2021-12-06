@@ -77,8 +77,8 @@
 
 ## 技术文档
 * [Vue官网](https://v3.cn.vuejs.org/)
-* [Vite官网](https://v3.cn.vuejs.org/)
-* [Naive官网](https://www.naiveui.com/zh-CN/os-theme)
+* [Vite官网](https://cn.vitejs.dev/)
+* [Naive UI官网](https://www.naiveui.com/zh-CN/os-theme)
 * [Ant Design Vue官网](https://next.antdv.com/components/overview/)
 * [Element Plus](https://element-plus.gitee.io/zh-CN/)
 * [Element3 官网](https://e3.shengxinjing.cn/#/)
