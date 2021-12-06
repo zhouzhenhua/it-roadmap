@@ -1,14 +1,10 @@
 <template>
   <Layout>
     <template #page-bottom>
-      <div>
-      <div class="my-footer">
-        <img :src="badge" alt />
-      </div>
+
       <p class="copyright">
-        MIT Licensed | Copyright © 京ICP备18000331号-1
+        <img :src="badge" alt /> | Copyright © 京ICP备18000331号-1
       </p> 
-      </div>
     </template>
   </Layout>
 </template>
@@ -23,26 +19,24 @@ export default {
   },
   setup() {
     let badge = ref('')
-    const router = useRouter()
-        changeBadge()
-
-    if (process.env.NODE_ENV === 'production' && typeof window !== 'undefined') {
-      router.afterEach((to,from) => {
-        if(to.hash){
-          return 
-        }
-        if (from.path !== to.path) {
-          changeBadge()
-        }
-      })
-      onMounted(() => {
-        changeBadge()
-      })
-    }
+    // const router = useRouter()
+        // changeBadge()
+// process.env.NODE_ENV === 'production' && 
+    // if (typeof window !== 'undefined') {
+    //   router.afterEach((to,from) => {
+    //     if(to.hash){
+    //       return 
+    //     }
+    //     if (from.path !== to.path) {
+    //       changeBadge()
+    //     }
+    //   })
+    //   changeBadge()
+    // }
     function changeBadge() {
-      if (location.hostname === 'shengxinjing.cn') {
+      // if (location.hostname === 'shengxinjing.cn') {
         badge.value = `https://visitor-badge.glitch.me/badge?page_id=shengxinjing-cn.${location.pathname}`
-      }
+      // }
     }
 
     return { badge }
@@ -69,5 +63,8 @@ export default {
   line-height: 1;
   font-size:14px;
   margin:0;
+}
+.copyright img{
+  vertical-align: middle;
 }
 </style>
