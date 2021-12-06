@@ -63,8 +63,8 @@
 
 
 ## 技术文档
-[HTML MDN](https://developer.mozilla.org/zh-CN/docs/Web/HTML/Element)
-[CSS MDN](https://developer.mozilla.org/zh-CN/docs/Learn/CSS)
+* [HTML MDN](https://developer.mozilla.org/zh-CN/docs/Web/HTML/Element)
+* [CSS MDN](https://developer.mozilla.org/zh-CN/docs/Learn/CSS)
 ## 免费文章和教程
 * [菜鸟教程](https://www.runoob.com/html/html-elements.html)
 ## 免费视频

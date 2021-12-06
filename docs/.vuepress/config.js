@@ -16,18 +16,7 @@ module.exports = {
         href: `/logo.ico`,
       },
     ],
-    ['style', {},`
-:root{
-  --content-width: 940px;
-  --sidebar-width: 15rem
-}
-iframe{
-  width:100%;
-  height:500px;
-  margin-bottom:20px;
-  border:2px solid #44a0d1;
-  border-radius: 10px;
-}`]
+    // ['style', {},``]
   ],
   markdown:{
     linkify:true

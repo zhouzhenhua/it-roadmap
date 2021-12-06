@@ -4,10 +4,11 @@
       <div class="my-footer">
         <img :src="badge" alt />
       </div>
-    </template>
-    <p>
+    <p class="copyright">
       MIT Licensed | Copyright © 京ICP备18000331号-1
     </p>
+    </template>
+
   </Layout>
 </template>
 
@@ -52,11 +53,20 @@ export default {
 .my-footer {
   text-align: right;
   position: relative;
-  padding-right:40px;
-  height: 12px;
+  padding-right:3px;
+  height: 0;
+  max-width: var(--content-width);
+  margin: 0 auto;
+
 }
 .my-footer img {
   position: relative;
   top: -38px;
+}
+.copyright{
+  text-align: center;
+  line-height: 1;
+  font-size:14px;
+  margin:0;
 }
 </style>
