@@ -24,6 +24,7 @@ module.exports = {
   plugins:['@vuepress/search','@vuepress/debug'],
   themeConfig:{
     logo:"/logo.png",
+    contributors:false,
     contributorsText: '贡献者',
     lastUpdatedText:'上次更新',
     notFound:['这就戳碰到我知识的盲点了'],
