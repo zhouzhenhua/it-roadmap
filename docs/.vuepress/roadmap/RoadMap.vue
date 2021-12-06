@@ -26,12 +26,6 @@ function canvasClick(e) {
 }
 
 
-function add(x,y){
-  return x*y
-}
-function getNow(){
-  const now = Date.now()
-}
 function downloadCanvas() {
   const canvas = canvasRef.value
 
@@ -51,6 +45,7 @@ function downloadCanvas() {
 }
 onMounted(() => {
   const canvas = drawMap(canvasRef.value, props.data)
+  console.log(canvas)
   canvas.on("mouse:down", canvasClick)
 })
 // onUnmounted(()=>{
