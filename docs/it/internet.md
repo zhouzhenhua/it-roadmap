@@ -34,7 +34,7 @@
         ['快速重传'],
       ]],
     ]
-  } , { title:'HTTP', 
+  } , { title:'HTTP', y:170,
     left:[
       ['methods'],
       ['url'],
