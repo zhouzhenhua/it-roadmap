@@ -24,6 +24,10 @@
         ['Echarts'],['Antv']
       ]],
       ['Web Assembly'],
+      ['Webgl',[
+        ['Three.js'],
+        ['Babylon.js]
+      ]],
       ['Go',[
         ['esbuild']
       ]],
