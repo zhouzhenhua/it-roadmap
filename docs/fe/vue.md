@@ -83,6 +83,7 @@
 * [Element Plus](https://element-plus.gitee.io/zh-CN/)
 * [Element3 官网](https://e3.shengxinjing.cn/#/)
 ## 免费文章和教程
+* [实现最简 vue3 模型](https://github.com/cuixiaorui/mini-vue)
 * [掘金| [Vue官方教程笔记]- 尤雨溪手写mini-vue](https://juejin.cn/post/6911897255087702030)
 * [掘金| 10分钟体验Vue3全家桶(Vue3 + VueRouter4 + Vuex4)](https://juejin.cn/post/6844904150082256903)
 * [掘金| 10.23尤雨溪在早早聊直播分享总结：vue3生态发展现状和展望](https://juejin.cn/post/7022137486407106591)
