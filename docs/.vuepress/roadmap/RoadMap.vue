@@ -1,18 +1,32 @@
 <template>
+
   <div class="map-container">
-    <button class="download-btn" @click="downloadCanvas">导出图片</button>
-    <canvas ref="canvasRef" :height="height" width="940" />
+    <div v-if="showImg">
+      <p>
+        移动端长图绘制较慢，显示静态图片，大家请在PC端打开
+      </p>
+      <img src="/all.png" alt="">
+    </div>
+    <div v-else>
+      <button class="download-btn" @click="downloadCanvas">导出图片</button>
+      <canvas ref="canvasRef" :height="height" width="940" />
+    </div>
   </div>
 </template>
 
 <script setup>
-import { ref, onMounted, onUnmounted } from 'vue'
+import UAParser from 'ua-parser-js'
+import { ref, onMounted, onUnmounted,computed } from 'vue'
 import { drawMap, c } from './util'
 const props = defineProps({
   height: Number,
   data: Object
 })
 let canvasRef = ref()
+
+var parser = new UAParser()
+var result = parser.getResult()
+const showImg=ref(result.device.type&&location.pathname==='/')
 
 function canvasClick(e) {
   if(e.target){
@@ -24,7 +38,6 @@ function canvasClick(e) {
     }
   }
 }
-
 
 function downloadCanvas() {
   const canvas = canvasRef.value
@@ -44,9 +57,11 @@ function downloadCanvas() {
   document.body.removeChild(link);
 }
 onMounted(() => {
-  const canvas = drawMap(canvasRef.value, props.data)
-  console.log(canvas)
-  canvas.on("mouse:down", canvasClick)
+  if(!showImg.value){
+    console.log(123)
+    const canvas = drawMap(canvasRef.value, props.data)
+    canvas.on("mouse:down", canvasClick)
+  }
 })
 // onUnmounted(()=>{
 //   canvas.off("mouse:down", canvasClick)
@@ -57,6 +72,10 @@ onMounted(() => {
 <style>
 .map-container{
   position: relative;
+}
+.map-container p{
+  font-size:12px;
+  text-align: center;
 }
 h1{
   text-align: center;

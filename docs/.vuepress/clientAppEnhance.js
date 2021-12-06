@@ -6,7 +6,7 @@ import RoadMap from './roadmap/RoadMap.vue'
 export default defineClientAppEnhance(({ app, router, siteData }) => {
   // roadmap
   app.component('roadmap', RoadMap)
-
+  console.log(app)
   // baidutongji
 
   if (process.env.NODE_ENV === 'production' && typeof window !== 'undefined') {
