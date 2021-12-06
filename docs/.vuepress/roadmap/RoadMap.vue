@@ -20,16 +20,17 @@
 <script setup>
 import UAParser from 'ua-parser-js'
 import { ref, onMounted, onUnmounted,computed } from 'vue'
+import {useRoute} from 'vue-router'
 import { drawMap, c } from './util'
 const props = defineProps({
   height: Number,
   data: Object
 })
 let canvasRef = ref()
-
+const route = useRoute()
 var parser = new UAParser()
 var result = parser.getResult()
-const isIndex = ref(location.pathname==='/')
+const isIndex = ref(route.path==='/')
 const showImg=ref(result.device.type&&isIndex.value)
 
 function canvasClick(e) {
@@ -62,7 +63,6 @@ function downloadCanvas() {
 }
 onMounted(() => {
   if(!showImg.value){
-    console.log(123)
     const canvas = drawMap(canvasRef.value, props.data)
     canvas.on("mouse:down", canvasClick)
   }
@@ -80,6 +80,8 @@ onMounted(() => {
 .map-container p{
   font-size:12px;
   text-align: center;
+
+  margin:0;
 }
 h1{
   text-align: center;
