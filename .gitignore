@@ -2,6 +2,7 @@ node_modules
 *-lock.yaml
 yarn.lock
 .DS_Store
+.idea
 
 # Logs
 logs
