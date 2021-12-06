@@ -1,9 +1,8 @@
 <template>
   <Layout>
     <template #page-bottom>
-
       <p class="copyright">
-        <img :src="badge" alt /> | Copyright © 京ICP备18000331号-1
+        <img v-if="badge" :src="badge" alt /> | Copyright © 京ICP备18000331号-1
       </p> 
     </template>
   </Layout>
@@ -11,34 +10,21 @@
 
 <script>
 import Layout from '@vuepress/theme-default/lib/client/layouts/Layout.vue'
-import { ref, onMounted } from 'vue'
-import { useRouter, useRoute } from 'vue-router'
+import { ref,watch } from 'vue'
+import { useRoute } from 'vue-router'
 export default {
   components: {
     Layout,
   },
   setup() {
-    let badge = ref('')
-    // const router = useRouter()
-        // changeBadge()
-// process.env.NODE_ENV === 'production' && 
-    // if (typeof window !== 'undefined') {
-    //   router.afterEach((to,from) => {
-    //     if(to.hash){
-    //       return 
-    //     }
-    //     if (from.path !== to.path) {
-    //       changeBadge()
-    //     }
-    //   })
-    //   changeBadge()
-    // }
-    function changeBadge() {
-      // if (location.hostname === 'shengxinjing.cn') {
-        badge.value = `https://visitor-badge.glitch.me/badge?page_id=shengxinjing-cn.${location.pathname}`
-      // }
-    }
-
+    const route = useRoute()
+    let badge = ref(`https://visitor-badge.glitch.me/badge?page_id=shengxinjing-cn.${route.path}`)
+    watch(
+      ()=>route.path,
+      path=>{
+        badge.value = `https://visitor-badge.glitch.me/badge?page_id=shengxinjing-cn.${path}`
+      },
+    )
     return { badge }
   }
 }
