@@ -1,14 +1,15 @@
 <template>
   <Layout>
     <template #page-bottom>
+      <div>
       <div class="my-footer">
         <img :src="badge" alt />
       </div>
-    <p class="copyright">
-      MIT Licensed | Copyright © 京ICP备18000331号-1
-    </p>
+      <p class="copyright">
+        MIT Licensed | Copyright © 京ICP备18000331号-1
+      </p> 
+      </div>
     </template>
-
   </Layout>
 </template>
 
