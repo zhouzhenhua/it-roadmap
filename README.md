@@ -18,3 +18,4 @@
 
 知识点尽可能全，学习细节做减法
 
+![](docs/.vuepress/public/all.png)
