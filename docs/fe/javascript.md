@@ -5,7 +5,7 @@
 
 <roadmap :data="[
   {title:'Javascript',download:true,x:400,y:20},
-  { title:'学习木标', y:130,
+  { title:'学习目标', y:140,
     left:[
       ['熟悉语法'],
       ['概念剖析',[
@@ -114,6 +114,7 @@
 * [B站| 天天造轮子-防抖节流](https://www.bilibili.com/video/BV1y3411r71u?spm_id_from=333.999.0.0)
 * [B站| Javascript书籍全测评【前端必备】](https://www.bilibili.com/video/BV15f4y1D7Fo)
 <iframe src="//player.bilibili.com/player.html?aid=287131932&bvid=BV15f4y1D7Fo&cid=265527858&page=1" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true"> </iframe>
+
 ## 书籍推荐
 
 * [Javascript编程艺术](https://book.douban.com/subject/6038371/)
@@ -123,6 +124,7 @@
 * [小黄书| 你不知道的javascript 中](https://book.douban.com/subject/26854244/)
 * [Javasript二十年](https://book.douban.com/subject/35446937/)
 * [绿宝书](https://book.douban.com/subject/35085910/)
+* [前端开发核心知识进阶](https://book.douban.com/subject/35218831/)
 
 ## 付费教程
 * [极客时间| winter重学前端](http://gk.link/a/10QbX)
