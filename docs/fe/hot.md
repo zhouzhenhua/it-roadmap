@@ -26,7 +26,7 @@
       ['Web Assembly'],
       ['Webgl',[
         ['Three.js'],
-        ['Babylon.js]
+        ['Babylon.js']
       ]],
       ['Go',[
         ['esbuild']
