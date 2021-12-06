@@ -21,7 +21,7 @@ module.exports = {
   markdown:{
     linkify:true
   },
-  plugins:['@vuepress/search'],
+  plugins:['@vuepress/search','@vuepress/debug'],
   themeConfig:{
     logo:"/logo.png",
     contributorsText: '贡献者',
