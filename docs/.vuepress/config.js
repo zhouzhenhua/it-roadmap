@@ -43,7 +43,11 @@ iframe{
     logo:"/logo.png",
     contributorsText: '贡献者',
     lastUpdatedText:'上次更新',
-    notFound:['页面不存在'],
+    notFound:['这就戳碰到我知识的盲点了'],
+    editLinkText:"编辑页面",
+    docsRepo:"https://github.com/shengxinjing/it-roadmap",
+    docsBranch:"main",
+    docsDir:"docs",
     navbar:[
       {
         text:'前端',
@@ -59,7 +63,8 @@ iframe{
           {text:'扁平配图unDraw',link:"https://undraw.co/illustrations"},
           {text:'创客贴做海报',link:"https://www.chuangkit.com/"},
           {text:"正则表达式",link:"https://any86.github.io/any-rule/"},
-          {text:'图片清除背景',link:"https://remove.bg/"}
+          {text:'图片清除背景',link:"https://remove.bg/"},
+          {text:'小徽章',link:"https://shields.io/"}
         ]
       },
       {

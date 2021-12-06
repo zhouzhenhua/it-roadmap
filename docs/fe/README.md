@@ -34,6 +34,10 @@ Java，Python等岗位的知识图谱正在制作中，欢迎一起共建一个�
 这个网站会一直以静态的形式存在，不需要登录，不需要关注公众号，源码和文稿全部在Github，欢迎大家一起来提PR共建
 
 文件夹docs下面就是全部的文档，roadmap组件负责渲染路线图，动态渲染，也更加方便一起共建修改
+
+[![](https://img.shields.io/github/discussions/shengxinjing/it-roadmap?label=%E5%AD%A6%E4%B9%A0%E8%AE%A8%E8%AE%BA%E5%8C%BA&logo=github)](https://github.com/shengxinjing/it-roadmap/discussions)
+[![Build Status](https://img.shields.io/endpoint.svg?url=https%3A%2F%2Factions-badge.atrox.dev%2Fshengxinjing%2Fit-roadmap%2Fbadge%3Fref%3Dmain&style=flat&label=%E9%83%A8%E7%BD%B2%E7%8A%B6%E6%80%81)](https://actions-badge.atrox.dev/shengxinjing/it-roadmap/goto?ref=main)
+
 ## 如何提问
 
 大家直接去[Github讨论区](https://github.com/shengxinjing/it-roadmap/discussions)提问即可，或者加我微信 or 钉钉群讨论
@@ -46,9 +50,19 @@ Java，Python等岗位的知识图谱正在制作中，欢迎一起共建一个�
 
 十年程序员，曾就职于百度，追求自由, 正在计划房车旅行
 
-* [B站](https://space.bilibili.com/26995758)
-* [知乎](https://www.zhihu.com/people/woniuppp)
-* [Github](https://github.com/shengxinjing)
+
+[![Bilibili](https://img.shields.io/badge/dynamic/json?labelColor=FE7398&logo=bilibili&logoColor=white&label=B站&color=fafafa&query=%24.data.totalSubs&url=https%3A%2F%2Fapi.spencerwoo.com%2Fsubstats%2F%3Fsource%3Dbilibili%26queryKey%3D26995758)](https://space.bilibili.com/26995758)
+[![Zhihu](https://img.shields.io/badge/dynamic/json?color=fafafa&labelColor=0066ff&logo=zhihu&logoColor=white&label=知乎&query=%24.data.totalSubs&url=https%3A%2F%2Fapi.spencerwoo.com%2Fsubstats%2F%3Fsource%3Dzhihu%26queryKey%3Dwoniuppp)](https://www.zhihu.com/people/woniuppp)
+[![github follower](https://img.shields.io/github/followers/shengxinjing?style=social)](https://github.com/shengxinjing)
+
+
+
+
+
+
+
+
+
 
 <iframe src="//player.bilibili.com/player.html?aid=415462414&bvid=BV1cV411Y77T&cid=260582709&page=1" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true"> </iframe>
 

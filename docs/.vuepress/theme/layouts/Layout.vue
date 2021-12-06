@@ -19,6 +19,8 @@ export default {
   setup() {
     let badge = ref('')
     const router = useRouter()
+        changeBadge()
+
     if (process.env.NODE_ENV === 'production' && typeof window !== 'undefined') {
       router.afterEach((to,from) => {
         if(to.hash){
@@ -28,16 +30,15 @@ export default {
           changeBadge()
         }
       })
-      function changeBadge() {
-        if (location.hostname === 'shengxinjing.cn') {
-          badge.value = `https://visitor-badge.glitch.me/badge?page_id=shengxinjing-cn.${location.pathname}`
-        }
-      }
       onMounted(() => {
         changeBadge()
       })
     }
-
+      function changeBadge() {
+        if (location.hostname !== 'shengxinjing.cn') {
+          badge.value = `https://visitor-badge.glitch.me/badge?page_id=shengxinjing-cn.${location.pathname}`
+        }
+      }
 
     return { badge }
   }
@@ -46,9 +47,10 @@ export default {
 
 <style lang="css">
 .my-footer {
-  text-align: center;
+  text-align: right;
   position: relative;
-  height: 0px;
+  padding-right:40px;
+  height: 12px;
 }
 .my-footer img {
   position: relative;
