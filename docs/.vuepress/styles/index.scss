@@ -1,24 +1,14 @@
 
-$MQMobile:1600px;
 :root{
   --content-width: 940px;
   --sidebar-width: 15rem
 }
-// @media (max-width: 1200px){
-// .sidebar {
-//     top: 0;
-//     padding-top: var(--navbar-height);
-//     transform: translate(-100%);
-//     display: none;
-// }
-// .toggle-sidebar-button {
-//   display: block;
-// }
-// .theme-container .page {
-//   padding-left: 0;
-// }
-// }
-
+.page-nav{
+  padding-top:0;
+}
+.page-meta{
+  padding-bottom: 0;
+}
 iframe{
   width:100%;
   height:500px;
