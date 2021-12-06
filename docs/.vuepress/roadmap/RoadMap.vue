@@ -8,6 +8,9 @@
       <img src="/all.png" alt="">
     </div>
     <div v-else>
+      <p v-if="isIndex">
+        绿色的方块都可以点击进入详情
+      </p>
       <button class="download-btn" @click="downloadCanvas">导出图片</button>
       <canvas ref="canvasRef" :height="height" width="940" />
     </div>
@@ -26,7 +29,8 @@ let canvasRef = ref()
 
 var parser = new UAParser()
 var result = parser.getResult()
-const showImg=ref(result.device.type&&location.pathname==='/')
+const isIndex = ref(location.pathname==='/')
+const showImg=ref(result.device.type&&isIndex.value)
 
 function canvasClick(e) {
   if(e.target){

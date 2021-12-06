@@ -1,8 +1,7 @@
 ---
 # home: true
-sidebar: false
-title: '大圣前端学习路线图'
-footer: MIT Licensed | Copyright © 京ICP备18000331号-1
+# sidebar: false
+# footer: 
 ---
 # 大圣前端学习路线图
 <!-- ['❌','✅','🔥','⭐'] -->

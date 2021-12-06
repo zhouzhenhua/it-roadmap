@@ -5,7 +5,7 @@
 
 <roadmap :data="[
   {title:'Javascript',download:true,x:400,y:20},
-  { title:'学习目标', y:150,
+  { title:'学习木标', y:150,
     left:[
       ['熟悉语法'],
       ['概念剖析',[

@@ -5,6 +5,9 @@
         <img :src="badge" alt />
       </div>
     </template>
+    <p>
+      MIT Licensed | Copyright © 京ICP备18000331号-1
+    </p>
   </Layout>
 </template>
 
@@ -34,11 +37,11 @@ export default {
         changeBadge()
       })
     }
-      function changeBadge() {
-        if (location.hostname !== 'shengxinjing.cn') {
-          badge.value = `https://visitor-badge.glitch.me/badge?page_id=shengxinjing-cn.${location.pathname}`
-        }
+    function changeBadge() {
+      if (location.hostname === 'shengxinjing.cn') {
+        badge.value = `https://visitor-badge.glitch.me/badge?page_id=shengxinjing-cn.${location.pathname}`
       }
+    }
 
     return { badge }
   }

@@ -30,15 +30,9 @@ iframe{
 }`]
   ],
   markdown:{
-    linkify:true,
-    // slugify(str){
-    //   // return 'xx'+str
-    //   // console.log(arguments)
-    //   console.log(str)
-    //   // return  crypto.createHash('md5').update(str).digest('hex').slice(0,4);
-    // }
+    linkify:true
   },
-
+  plugins:['@vuepress/search'],
   themeConfig:{
     logo:"/logo.png",
     contributorsText: '贡献者',
