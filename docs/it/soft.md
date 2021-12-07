@@ -16,8 +16,8 @@
 祝大家都能有快乐可持续的职业生涯，也祝我能尽快带我媳妇开房车出去环游中国
 
 <roadmap :data="[
-  {title:'算法和数据结构',download:true,x:400,y:20},
-  { title:'软技能', link:'/fe/soft.html',y:250,
+  {title:'软技能',download:true,x:400,y:20},
+  { title:'学习目标', link:'/fe/soft.html',y:250,
     left:[
       ['职场',[
         ['职场导师'],
