@@ -51,9 +51,10 @@
   { title:'书籍推荐', y:150,
     left:[
       ['CSS权威指南'],
-      ['精通css'],
+      ['精通CSS'],
+      ['CSS揭秘']
     ],right:[
-      ['css世界'],
+      ['CSS世界'],
       ['深入解析CSS'],
     ]
   } ,
@@ -75,7 +76,7 @@ B站
 
 ## 书籍推荐
 
-* [精通css](https://book.douban.com/subject/30450258/)
-* [css权威指南](https://book.douban.com/subject/2308234/)
-* [深入解析css](https://book.douban.com/subject/35021471/)
-
+* [精通CSS](https://book.douban.com/subject/30450258/)
+* [CSS权威指南](https://book.douban.com/subject/2308234/)
+* [深入解析CSS](https://book.douban.com/subject/35021471/)
+* [CSS揭秘](https://book.douban.com/subject/26745943/)
