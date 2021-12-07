@@ -5,8 +5,8 @@
 Typescript给Javascript带来了类型系统，带来了更智能的提示和丝滑的开发体验，Javascript中变量可以赋值任意类型的值，这在大型系统中会增加代码的维护难度，Typescript有点像三体人，每个变量的类型，每个函数的参数结构都对外清晰可见，是构建大型项目和框架的必备技术
 
 <roadmap :data="[
-  {title:'React',download:true,x:400,y:20},
-{ title:'Typescript',y:200,
+  {title:'Typescript',download:true,x:400,y:20},
+{ title:'学习目标',y:200,
     left:[
       ['基础类型'],
       ['Interface'],
