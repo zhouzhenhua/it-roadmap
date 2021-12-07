@@ -16,8 +16,8 @@
 祝大家都能有快乐可持续的职业生涯，也祝我能尽快带我媳妇开房车出去环游中国
 
 <roadmap :data="[
-  {title:'软技能',download:true,x:400,y:20},
-  { title:'学习目标', link:'/fe/soft.html',y:250,
+  {title:'算法和数据结构',download:true,x:400,y:20},
+  { title:'软技能', link:'/fe/soft.html',y:250,
     left:[
       ['职场',[
         ['职场导师'],
@@ -70,7 +70,9 @@
 * [学习| 暗时间](https://book.douban.com/subject/6709809/)
 * [学习| 如何阅读一本书](https://book.douban.com/subject/1013208/)
 * [学习| 吴军阅读与写作讲义](https://book.douban.com/subject/1013208/)
+* [学习| 计算之魂](https://book.douban.com/subject/35641088/)
 * [学习| 怎样解题](https://book.douban.com/subject/30373956/)
+* [学习| 数学与生活 1-3册](https://book.douban.com/subject/26148739/)
 * [视野| 浪潮之巅](https://book.douban.com/subject/33474750/)
 * [视野| 俞军产品方法论](https://book.douban.com/subject/34907971/)
 * [视野| 增长黑客](https://book.douban.com/subject/27593848/)
@@ -78,6 +80,7 @@
 * [谈钱| 谈判是什么](https://book.douban.com/subject/1038977/)
 * [谈钱| 优势谈判](https://book.douban.com/subject/3002878/)
 * [生活| 具体生活](https://book.douban.com/subject/30356082/)
+* [沟通| 沟通的方法](https://book.douban.com/subject/35473807/)
 * [软件| Unix编程艺术](https://book.douban.com/subject/5387401/)
 * [软件| 重构](https://book.douban.com/subject/4262627/)
 * [软件| 码农翻身](https://book.douban.com/subject/30231515/)
@@ -93,6 +96,5 @@
 
 ## 付费教程
 
-* [阿里P10郭东白的架构课](http://gk.link/a/10R9H)
 * [极客时间| 技术管理实战36讲](http://gk.link/a/10QeO)
 * [极客时间| 大厂晋升指南](http://gk.link/a/10QeN)
