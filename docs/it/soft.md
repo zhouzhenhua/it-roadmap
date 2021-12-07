@@ -69,7 +69,7 @@
 
 * [学习| 暗时间](https://book.douban.com/subject/6709809/)
 * [学习| 如何阅读一本书](https://book.douban.com/subject/1013208/)
-* [学习| 吴军阅读与写作讲义](https://book.douban.com/subject/1013208/)
+* [学习| 吴军阅读与写作讲义](https://book.douban.com/subject/35426741/)
 * [学习| 怎样解题](https://book.douban.com/subject/30373956/)
 * [视野| 浪潮之巅](https://book.douban.com/subject/33474750/)
 * [视野| 俞军产品方法论](https://book.douban.com/subject/34907971/)
