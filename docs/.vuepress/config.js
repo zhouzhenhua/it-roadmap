@@ -48,7 +48,9 @@ module.exports = {
           {text:'创客贴做海报',link:"https://www.chuangkit.com/"},
           {text:"正则表达式",link:"https://any86.github.io/any-rule/"},
           {text:'图片清除背景',link:"https://remove.bg/"},
-          {text:'小徽章',link:"https://shields.io/"}
+          {text:'小徽章',link:"https://shields.io/"},
+          {text:'数据结构/算法动态可视化',link:"https://visualgo.net/zh"},
+          {text:'AST Explorer',link:"https://astexplorer.net/"},
         ]
       },
       {
@@ -60,7 +62,7 @@ module.exports = {
           {text:"知乎",link:"https://www.zhihu.com/people/woniuppp"},
           {text:"B站",link:"https://space.bilibili.com/26995758"},
           {text:"云旅游",link:"https://livechina.cctv.com/mlzg/index.shtml?spm=0.PiHRJ12Bw7m4.EVbEpxjQVGbO.4"},
-          {text:'云游故宫',link:"https://www.dpm.org.cn/yygg.html"}
+          {text:'云游故宫',link:"https://www.dpm.org.cn/yygg.html"},
         ]
       },
       {
