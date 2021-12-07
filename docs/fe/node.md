@@ -61,7 +61,6 @@ Node并不难，语法都是Javascript，难点在于我们没有后端思维以
         ['xss'],
         ['https'],
         ['csrf'],
-        ['xss'],
       ]],
     ]
   } ,
