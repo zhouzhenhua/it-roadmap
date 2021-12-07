@@ -8,7 +8,7 @@ Node.js的诞生让前端有了入侵后端的能力，也是前端开始繁荣�
 Node并不难，语法都是Javascript，难点在于我们没有后端思维以及不懂操作系统，Node执行在操作系统里，文件系统，网络协议，数据库等概念纯前端了解的不多， 业务需求也从实现布局变成自动化，文件读写，数据库读写等等，我们一起转变思维，好好拥抱Node把
 
 <roadmap :data="[
-  {title:'实战开发',download:true,x:400,y:20},
+  {title:'Node.js',download:true,x:400,y:20},
   { title:'入门', y:180,
     left:[
       ['安装Node'],
