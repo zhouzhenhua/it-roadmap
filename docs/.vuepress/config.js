@@ -114,7 +114,8 @@ module.exports = {
           '/fe/app.md',
           '/fe/hot.md'
         ]
-      }
+      },
+      'support.md',
     ]
     // sidebar:{
     //   '/fe':[
