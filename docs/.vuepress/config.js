@@ -65,6 +65,7 @@ module.exports = {
           {text:'云游故宫',link:"https://www.dpm.org.cn/yygg.html"},
         ]
       },
+      'support.md',
       {
         text:'提问',
         link:"https://github.com/shengxinjing/it-roadmap/discussions"
@@ -113,7 +114,8 @@ module.exports = {
           '/fe/app.md',
           '/fe/hot.md'
         ]
-      }
+      },
+      'support.md',
     ]
     // sidebar:{
     //   '/fe':[

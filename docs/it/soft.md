@@ -55,6 +55,13 @@
   {title:'快乐可持续的职业生涯',w:200,x:-30}
 ]" />
 
+
+## 职业生涯规划
+
+* [Gihub| 程序员考公指南](https://github.com/coder2gwy/coder2gwy)
+* [B站| 从年薪百万程序员到自由职业的思考](https://www.bilibili.com/video/BV1BP4y1a7WE)
+
+
 ## 精品文章
 
 * [提问的智慧](https://github.com/tvvocold/How-To-Ask-Questions-The-Smart-Way)
@@ -87,7 +94,6 @@
 
 * [B站| CM100-学会学习](https://www.bilibili.com/video/BV1SK4y1Z7eE?spm_id_from=333.999.0.0)
 * [B站| 【coursera公开课】学会如何学习](https://www.bilibili.com/video/BV1NW411C7d8)
-* [B站| 从年薪百万程序员到自由职业的思考](https://www.bilibili.com/video/BV1BP4y1a7WE)
 * [B站| 【互联网吐槽会】去阿里秀阿里味是什么体验](https://www.bilibili.com/video/BV1m64y197iP)
 * [B站| 如何忽悠你的老板？上班怎么高效摸鱼？](https://www.bilibili.com/video/BV12V411U7Y7)
 * [B站| 拒绝伪科学烂鸡汤！手把手教你辨别垃圾畅销书](https://www.bilibili.com/video/BV1Dv411k7gi)

@@ -73,6 +73,7 @@
 
 * [掘金| 这可能是最通俗的 React Fiber(时间分片) 打开方式](https://juejin.cn/post/6844903975112671239)
 * [掘金|  React全部api解读+基础实践大全(夯实基础2万字总结)](https://juejin.cn/post/6950063294270930980)
+* [公众号| React Concurrent Mode 初识&探秘](https://mp.weixin.qq.com/s/WUVVpEoXdhVOlwtjgpLX5A)
 ## 免费视频
 
 * [B站| React 与 Vue 框架的设计思路大 PK](https://www.bilibili.com/video/BV1az4y127Ga/)
