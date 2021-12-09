@@ -60,6 +60,7 @@
 * [提问的智慧](https://github.com/tvvocold/How-To-Ask-Questions-The-Smart-Way)
 * [996.ICU](https://996.icu/#/zh_CN)
 * [MEGAEASE的远程工作文化](https://coolshell.cn/articles/20765.html)
+* [如何有效地报告 Bug](https://www.chiark.greenend.org.uk/~sgtatham/bugs-cn.html)
 * [知乎| 有哪些简洁的人际交往模式](https://www.zhihu.com/question/293390085/answer/784001997)
 * [知乎| 有哪些道理你后悔没有早点知道？](https://www.zhihu.com/question/293390085/answer/784001997)
 * [知乎| 长时间坚持做一件事是种怎样的体验？](https://www.zhihu.com/question/38455082/answer/297675068)
