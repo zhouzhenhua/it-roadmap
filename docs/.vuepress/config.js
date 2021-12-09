@@ -1,8 +1,8 @@
 const { path } = require('@vuepress/utils')
 
 module.exports = {
-  title: '大圣编程自学网',
-  description: '学编程的最佳实践.',
+  title: '大圣前端编程自学网',
+  description: '学前端的最佳实践.',
   bundler:'@vuepress/bundler-vite',
   theme: path.resolve(__dirname, './theme'),
   // head: [['link', { rel: 'icon', href: '/images/logo.png' }]],
