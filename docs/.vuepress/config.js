@@ -33,10 +33,7 @@ module.exports = {
     docsBranch:"main",
     docsDir:"docs",
     navbar:[
-      {
-        text:'前端',
-        link:'/fe/'
-      },
+      '/fe/',
       {
         text:'常用工具',
         children:[
