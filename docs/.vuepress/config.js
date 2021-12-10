@@ -1,8 +1,8 @@
 const { path } = require('@vuepress/utils')
 // const Vue = require('@vitejs/plugin-vue')
 module.exports = {
-  title: '大圣编程自学网',
-  description: '学编程的最佳实践.',
+  title: '大圣前端编程自学网',
+  description: '学前端的最佳实践.',
   bundler:'@vuepress/bundler-vite',
   // bundlerConfig:{
   //   vuePluginOptions:{
@@ -47,10 +47,7 @@ module.exports = {
     docsBranch:"main",
     docsDir:"docs",
     navbar:[
-      {
-        text:'前端',
-        link:'/fe/'
-      },
+      '/fe/',
       {
         text:'常用工具',
         children:[
