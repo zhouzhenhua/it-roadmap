@@ -154,7 +154,7 @@
         ['Ant Design'],
       ]],
       ['项目实战',[120],[
-        ['redux dva'],
+        ['redux dva Umi'],
         ['react-router'],
         ['单元测试'],
         ['性能优化'],
