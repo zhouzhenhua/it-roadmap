@@ -22,6 +22,8 @@ import UAParser from 'ua-parser-js'
 import { ref, onMounted, onUnmounted,computed } from 'vue'
 import {useRoute} from 'vue-router'
 import { drawMap, c } from './util'
+import {usePageData} from '@vuepress/client'
+console.log(usePageData())
 const props = defineProps({
   height: Number,
   data: Object
@@ -66,10 +68,14 @@ onMounted(() => {
     const canvas = drawMap(canvasRef.value, props.data)
     canvas.on("mouse:down", canvasClick)
   }
+  if (import.meta.hot) {
+  // HMR 代码
+    console.log('热更新？')
+  }
 })
 // onUnmounted(()=>{
 //   canvas.off("mouse:down", canvasClick)
-// })
+// }
 
 </script>
 

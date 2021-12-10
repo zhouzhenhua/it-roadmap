@@ -105,10 +105,8 @@ function drawQrcode(canvas) {
 
   // canvas.add(group)
 }
-
 export function drawMap(dom, data) {
   const rects = []
-
   const lines = []
   let lastRect
   data = data.filter(v=>v.show!==false)

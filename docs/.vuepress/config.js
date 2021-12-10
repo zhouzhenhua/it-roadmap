@@ -1,9 +1,23 @@
 const { path } = require('@vuepress/utils')
-
+// const Vue = require('@vitejs/plugin-vue')
 module.exports = {
   title: '大圣编程自学网',
   description: '学编程的最佳实践.',
   bundler:'@vuepress/bundler-vite',
+  // bundlerConfig:{
+  //   vuePluginOptions:{
+  //     plugins:[
+  //       Vue({
+  //         include: [/\.md$/]
+  //       })
+  //     ]
+  //   },
+  //   plugins:[
+  //     Vue({
+  //       include: [/\.vue$/, /\.md$/]
+  //     })
+  //   ]
+  // },
   theme: path.resolve(__dirname, './theme'),
   // head: [['link', { rel: 'icon', href: '/images/logo.png' }]],
   head: [
