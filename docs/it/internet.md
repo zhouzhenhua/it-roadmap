@@ -70,4 +70,4 @@
 ## 付费教程
 
 * [极客时间| 趣谈网络协议](http://gk.link/a/10Qcu)
-* [极客时间| 透视HTTP协议](https://time.geekbang.org/column/intro/100029001)
+* [极客时间| 透视HTTP协议](http://gk.link/a/10SRJ)
