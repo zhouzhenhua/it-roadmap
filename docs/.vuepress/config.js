@@ -35,7 +35,22 @@ module.exports = {
   markdown:{
     linkify:true
   },
-  plugins:['@vuepress/search','@vuepress/debug'],
+  plugins:[
+    '@vuepress/search','@vuepress/debug',
+    [
+      '@vuepress/plugin-docsearch',
+      {
+        apiKey: '8d9003f3c6db1f784d7ba40c636e86cb',
+        indexName: 'shengxinjing',
+        searchParameters: {
+          facetFilters: ['tags:v2'],
+        },
+        locales: {
+          placeholder:"搜索文档"
+        },
+      },
+    ],
+  ],
   themeConfig:{
     logo:"/logo.png",
     contributors:false,
