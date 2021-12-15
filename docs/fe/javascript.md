@@ -108,6 +108,7 @@
 * [掘金| 由浅入深，66条JavaScript面试知识点](https://juejin.cn/post/6844904200917221389)
 * [掘金| JavaScript深入系列15篇正式完结！](https://juejin.cn/post/6844903479429824526)
 * [掘金| 「中高级前端面试」JavaScript手写代码无敌秘籍](https://juejin.cn/post/6844903809206976520)
+* [现代 JavaScript 教程](https://zh.javascript.info/)
 
 ## 免费视频
 
