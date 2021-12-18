@@ -179,6 +179,8 @@ Node并不难，语法都是Javascript，难点在于我们没有后端思维以
 [掘金| 基于 qiankun 的微前端最佳实践（万字长文） - 从 0 到 1 篇](https://juejin.cn/post/6844904158085021704)
 * [字节跳动是如何落地微前端的](https://juejin.cn/post/7016911648656982024)
 * [知乎| 迈入现代 Web 开发](https://zhuanlan.zhihu.com/p/386607009)
+* [深入理解Node.js](https://yjhjstz.gitbooks.io/deep-into-node/content/) 
+
 ## 书籍推荐
 
 * [Node源码解析](https://11111-1252105172.cos.ap-shanghai.myqcloud.com/understand-nodejs%EF%BC%88%E5%B8%A6%E6%A0%87%E7%AD%BE%E7%89%88%EF%BC%89.pdf)
