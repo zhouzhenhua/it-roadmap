@@ -46,7 +46,8 @@
 * [啊哈!算法](https://book.douban.com/subject/25894685/)
 * [算法导论（新手不推荐）](https://book.douban.com/subject/1885170/)
 
-
+## 学习资料
+* [可视化算法](https://visualgo.net/zh) 
 ## 付费教程
 
 ::: warning @todo
