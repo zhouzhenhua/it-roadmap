@@ -66,6 +66,7 @@ module.exports = {
       {
         text:'常用工具',
         children:[
+          '/tools/weibo.md',
           {text:'时钟',link:"https://pandafe.gitee.io/clock/"},
           {text:'正则可视化',link:"https://jex.im/regulex/#!flags=&re=%5E(a%7Cb)*%3F%24"},
           {text:"mdnice",link:"https://mdnice.com/"},
@@ -141,7 +142,13 @@ module.exports = {
           '/fe/hot.md'
         ]
       },
-      'support.md',
+      '/support.md',
+      {
+        text:'小工具',
+        children:[
+          '/tools/weibo.md'
+        ]
+      }
     ]
     // sidebar:{
     //   '/fe':[
