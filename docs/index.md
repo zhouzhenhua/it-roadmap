@@ -3,7 +3,7 @@
 # sidebar: false
 # footer: 
 ---
-# 大圣前端学习路线图 Geektime
+# 大圣前端学习路线图 Geektime Vue3
 <!-- ['❌','✅','🔥','⭐'] -->
 
 <roadmap  :data="[
