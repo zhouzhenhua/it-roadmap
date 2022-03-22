@@ -101,7 +101,7 @@
 * [可视化Git](https://learngitbranching.js.org/?demo=&locale=zh_CN)
 ## 书籍推荐
 
-* [Pro Git](https://book.douban.com/subject/3420144/)
+* [Pro Git 中文版](https://gitee.com/progit/)
 
 
 ## 免费视频
