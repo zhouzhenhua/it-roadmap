@@ -68,6 +68,7 @@
       ['Testing Vue'],
     ],right:[
       ['深入浅出Vue'],
+       ['Vue.js设计与实现'],
     ]
   } ,
   { title:'和面试官谈笑风生',y:100
@@ -100,6 +101,7 @@
 ## 书籍推荐
 
 * [深入浅出Vue.js](https://book.douban.com/subject/32581281/)
+* [Vue.js设计与实现](https://book.douban.com/subject/35768338/)
 * [Testing Vue.js Applications](https://book.douban.com/subject/33338290/)
 
 ## 付费课程
