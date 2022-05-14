@@ -89,6 +89,9 @@
 * [软件| Unix编程艺术](https://book.douban.com/subject/5387401/)
 * [软件| 重构](https://book.douban.com/subject/4262627/)
 * [软件| 码农翻身](https://book.douban.com/subject/30231515/)
+* [软件| 程序员修炼之道-从小工到专家](https://book.douban.com/subject/5387402/)
+* [软件| 代码整洁之道](https://book.douban.com/subject/4199741/)
+
 
 ## 免费视频
 
