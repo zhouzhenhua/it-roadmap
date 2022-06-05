@@ -74,7 +74,7 @@
 * [掘金| 「中高级前端面试」JavaScript手写代码无敌秘籍](https://juejin.cn/post/6844903809206976520)
 * [Github| 前端进阶之道](https://yuchengkai.cn/)
 * [Github| 前端3+1面试题库](https://github.com/haizlin/fe-interview)
-
+* [作为一名前端工程师，我浪费了时间学习了这些技术](https://juejin.cn/post/7086019601372282888)
 ## 免费视频
 
 
