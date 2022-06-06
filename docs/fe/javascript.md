@@ -127,7 +127,7 @@
 * [绿宝书| JavaScript语言精髓与编程实践（第3版）](https://book.douban.com/subject/35085910/)
 * [前端开发核心知识进阶](https://book.douban.com/subject/35218831/)
 * [JavaScript忍者秘籍](https://book.douban.com/subject/26638316/)
-
+* [深入理解现代JavaScript](https://book.douban.com/subject/35863220/)
 
 ## 付费教程
 * [极客时间| winter重学前端](http://gk.link/a/10QbX)
