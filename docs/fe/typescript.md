@@ -127,6 +127,7 @@ request('/course/404',{id:1}) //接口不存在 类型报错
 * [掘金| TypeScript 高级用法](https://juejin.cn/post/6926794697553739784)
 * [掘金|  一文读懂 TypeScript 泛型及应用](https://juejin.cn/post/6844904184894980104)
 * [掘金| 一份不可多得的 TS 学习指南（1.8W字）](https://juejin.cn/post/6872111128135073806)
+* [掘金| 「1.9W 字总结」一份通俗易懂的 TS 教程，入门 + 实战！](https://juejin.cn/post/7068081327857205261)
 ## 免费视频
 ::: warning @todo
 B站录制
