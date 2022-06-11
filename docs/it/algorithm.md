@@ -49,6 +49,7 @@
 ## 学习资料
 * [可视化算法](https://visualgo.net/zh) 
 * [语雀| 设计模式](https://www.yuque.com/wubinhp/uxiv5i )
+* [算法|图解](https://www.programmercarl.com)
 ## 付费教程
 
 ::: warning @todo
