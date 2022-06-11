@@ -75,9 +75,9 @@
 * [Github| 前端进阶之道](https://yuchengkai.cn/)
 * [Github| 前端3+1面试题库](https://github.com/haizlin/fe-interview)
 * [作为一名前端工程师，我浪费了时间学习了这些技术](https://juejin.cn/post/7086019601372282888)
+* [web前端面试 - 面试官系列](https://vue3js.cn/interview/)
+
 ## 免费视频
-
-
 * [B站| 程序员简历点评第二期：能吃苦和能吃](https://www.bilibili.com/video/BV1av411w7oa)
 * [B站| 现场点评9个程序员简历 -- 有喷有夸](https://www.bilibili.com/video/BV1g54y1p7yV?spm_id_from=333.999.0.0)
 * [B站| 【花果山自习室02】想进大厂？简历要这么写](https://www.bilibili.com/video/BV1FB4y1T7CP?spm_id_from=333.999.0.0)
