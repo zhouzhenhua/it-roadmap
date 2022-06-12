@@ -76,6 +76,7 @@
 * [Github| 前端3+1面试题库](https://github.com/haizlin/fe-interview)
 * [作为一名前端工程师，我浪费了时间学习了这些技术](https://juejin.cn/post/7086019601372282888)
 * [web前端面试 - 面试官系列](https://vue3js.cn/interview/)
+* [码二说之玩转前端面试CSS篇](https://juejin.cn/post/7100458115383951367)
 
 ## 免费视频
 * [B站| 程序员简历点评第二期：能吃苦和能吃](https://www.bilibili.com/video/BV1av411w7oa)
