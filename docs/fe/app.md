@@ -24,4 +24,7 @@ Flutter连语言都没用JavaScript，用Dart构建，相比React Native学习�
 <!-- ## 免费视频 -->
 # 文档
 
+## Flutter
+- [flutter中文文档](https://flutter.cn/docs)
+
 ## 精品文章
