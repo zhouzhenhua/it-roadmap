@@ -78,6 +78,7 @@ module.exports = {
           {text:'小徽章',link:"https://shields.io/"},
           {text:'数据结构/算法动态可视化',link:"https://visualgo.net/zh"},
           {text:'AST Explorer',link:"https://astexplorer.net/"},
+          {text:'Apifox',link:"https://www.apifox.cn/"}
         ]
       },
       {
