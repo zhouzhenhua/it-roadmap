@@ -83,6 +83,8 @@
 
 ## 文档
 
+[Vite](https://vitejs.dev/)
+
 ## 免费文章和教程
 
 * [掘金| vite工程化实践，建议收藏](https://juejin.cn/post/6910014283707318279)
