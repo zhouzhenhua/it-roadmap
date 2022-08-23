@@ -4,7 +4,7 @@
 
 你可以收获前端学习小秘籍，一起学习`前端进阶`的知识，我会的都可以聊
 
-<img src="https://cdn.jsdelivr.net/gh/shengxinjing/static/xiao.jpg" width="280">
+<img src="https://cdn.jsdelivr.net/gh/shengxinjing/static/xiao3.jpg" width="280">
 
 ## 极客时间付费课(文字专栏)
 <img src="/vue3-geek.jpg" width="260">
