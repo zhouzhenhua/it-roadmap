@@ -109,10 +109,6 @@ module.exports = {
       {
         text:'Twitter',
         link:"https://twitter.com/shengxj1"
-      },
-      {
-        text:"Discord",
-        link:"https://discord.gg/V3ZHdnZErY"
       }
     ],
     sidebar:[
