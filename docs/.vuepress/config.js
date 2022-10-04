@@ -37,19 +37,19 @@ module.exports = {
   },
   plugins:[
     '@vuepress/search','@vuepress/debug',
-    [
-      '@vuepress/plugin-docsearch',
-      {
-        apiKey: '8d9003f3c6db1f784d7ba40c636e86cb',
-        indexName: 'shengxinjing',
-        searchParameters: {
-          facetFilters: ['tags:v2'],
-        },
-        locales: {
-          placeholder:"搜索文档"
-        },
-      },
-    ],
+    // [
+    //   '@vuepress/plugin-docsearch',
+    //   {
+    //     apiKey: '8d9003f3c6db1f784d7ba40c636e86cb',
+    //     indexName: 'shengxinjing',
+    //     searchParameters: {
+    //       facetFilters: ['tags:v2'],
+    //     },
+    //     locales: {
+    //       placeholder:"搜索文档"
+    //     },
+    //   },
+    // ],
   ],
   themeConfig:{
     logo:"/logo.png",
@@ -93,7 +93,11 @@ module.exports = {
           {text:'云游故宫',link:"https://www.dpm.org.cn/yygg.html"},
         ]
       },
-      'support.md',
+      '/support.md',
+      {
+        text:'聊天室',
+        link:'https://discord.gg/V3ZHdnZErY'
+      },
       {
         text:'提问',
         link:"https://github.com/shengxinjing/it-roadmap/discussions"
@@ -101,6 +105,10 @@ module.exports = {
       {
         text:'Github',
         link:"https://github.com/shengxinjing/it-roadmap"
+      },
+      {
+        text:'Twitter',
+        link:"https://twitter.com/shengxj1"
       },
     ],
     sidebar:[
