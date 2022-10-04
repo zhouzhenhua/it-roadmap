@@ -98,10 +98,10 @@ module.exports = {
         text:'聊天室',
         link:'https://discord.gg/V3ZHdnZErY'
       },
-      {
-        text:'提问',
-        link:"https://github.com/shengxinjing/it-roadmap/discussions"
-      },
+      // {
+      //   text:'提问',
+      //   link:"https://github.com/shengxinjing/it-roadmap/discussions"
+      // },
       {
         text:'Github',
         link:"https://github.com/shengxinjing/it-roadmap"
@@ -110,6 +110,10 @@ module.exports = {
         text:'Twitter',
         link:"https://twitter.com/shengxj1"
       },
+      {
+        text:"Discord",
+        link:"https://discord.gg/V3ZHdnZErY"
+      }
     ],
     sidebar:[
       '/fe/README.md',
