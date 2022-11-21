@@ -12,11 +12,9 @@
       margin: 0 auto;
       text-align: center;
     }
-
     #board {
       display: none;
     }
-
     button {
       background: #fb7299;
       color: white;
@@ -128,7 +126,6 @@
 
   <script>
     const $ = (selector) => document.querySelector(selector)
-
     class KunBoard {
       constructor(audio) {
         this.textarea = $('#output')
@@ -137,6 +134,9 @@
         this.audio = audio
       }
       bindEvents() {
+        this.textarea.addEventListener('change',()=>{
+          location.hash = this.textarea.value
+        })
         this.bindClick()
         this.bindKeydown()
         this.bindReplay()
@@ -165,6 +165,7 @@
           if (e.target.className.indexOf('keys') > -1) {
             const key = e.target.className.replace('keys ', '').trim()
             this.textarea.value += key
+            location.hash = this.textarea.value
             this.audio.sing(key)
             blink(e.target)
           }
@@ -173,11 +174,16 @@
       bindKeydown() {
         document.addEventListener('keydown', (e) => {
           const { key } = e
-          if (e.shiftKey || e.ctrlKey || e.metaKey || e.altKey) return
-          if (key.length !== 1 || !/[a-z]/g.test(key)) return 
+          if (e.shiftKey || e.ctrlKey || e.metaKey || e.altKey||key.length !== 1 || !/[a-z]/g.test(key)) {
+            if(key!=='Backspace'){
+              e.preventDefault()
+            }
+            return 
+          }
           if (e.target.tagName.toLowerCase() !== 'textarea') {
             this.textarea.value += key
           }
+          location.hash = this.textarea.value
           audio.sing(key)
           blink($('.keys.' + key))
         }, false)
@@ -194,6 +200,7 @@
         })
         this.kunBoard.innerHTML = btnHtml
         this.bindEvents()
+        this.textarea.value = location.hash.slice(1)
       }
 
     }
