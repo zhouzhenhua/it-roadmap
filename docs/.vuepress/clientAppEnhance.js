@@ -11,7 +11,7 @@ export default defineClientAppEnhance(({ app, router, siteData }) => {
   if (process.env.NODE_ENV === 'production' && typeof window !== 'undefined') {
     var _hmt = _hmt || [];
     var hm = document.createElement("script");
-    hm.src = "https://hm.baidu.com/hm.js?ccf55dfd2764cf3ebf43d6b3c9da9b20";
+    hm.src = "https://hm.baidu.com/hm.js?a322b91ab21bac0156a47c43657d446a";
     var s = document.getElementsByTagName("script")[0]; 
     s.parentNode.insertBefore(hm, s);
   
