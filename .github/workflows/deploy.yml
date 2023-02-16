@@ -28,7 +28,7 @@ on:
 jobs:
   build:
     runs-on: ubuntu-latest
-    if: ${{ inputs.deploy_environment == prd }}
+    if: ${{ github.event.inputs.deploy_environment == 'prd' }}
     steps:
     - name: print test01
       run: echo "test01"
