@@ -28,10 +28,14 @@ on:
 jobs:
   build:
     runs-on: ubuntu-latest
-    if: ${{ github.event.inputs.deploy_environment == 'prd' }}
+    
     steps:
     - name: print test01
+      if: ${{ github.event.inputs.deploy_environment == 'prd' }}
       run: echo "test01"
-      
+  
+    - name: print test02
+      if: ${{ github.event.inputs.deploy_environment == 'prd' and github.event.inputs.node == '02' }}
+      run: echo "test02"  
       
       
