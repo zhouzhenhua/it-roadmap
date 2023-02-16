@@ -1,0 +1,40 @@
+---
+name: bt-api-server
+
+on:
+  push:
+    branches: [ main ]
+  pull_request:
+    branches: [ main ]
+    
+  workflow_dispatch:
+    inputs:
+      deploy_environment:
+        description: 'env name'
+        required: true
+        default: 'prd' 
+        type: choice
+        options:
+        - dev
+        - stg
+        - prd
+      node:
+        description: 'node name'
+        required: true
+        default: '01' 
+        type: choice
+        options:
+        - 01
+        - 02
+        
+        
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    if: ${{ inputs.deploy_environment == prd }}
+    steps:
+    - name: print test01
+      run: echo "test01"
+      
+      
+      
