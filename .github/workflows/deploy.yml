@@ -24,8 +24,8 @@ on:
         default: '01' 
         type: choice
         options:
-        - 01
-        - 02
+        - "01"
+        - "02"
         
         
 jobs:
