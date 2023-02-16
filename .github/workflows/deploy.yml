@@ -35,7 +35,7 @@ jobs:
       run: echo "test01"
   
     - name: print test02
-      if: ${{ github.event.inputs.deploy_environment == 'prd' and github.event.inputs.node == '02' }}
+      if: ${{ github.event.inputs.deploy_environment == 'prd' }} and ${{ github.event.inputs.node == '02' }} 
       run: echo "test02"  
       
       
